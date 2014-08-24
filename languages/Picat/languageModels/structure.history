@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="-1" />
+    </dependencies>
+    <rename id="jhh7.1206526942737339969" type="CONCEPT" from="Comment" to="LineComment" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="0" />
+    </dependencies>
+    <rename id="jhh7.1206526942738083589" type="CONCEPT" from="AnonymousVariable" to="VariableAnonymous" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="1" />
+    </dependencies>
+    <rename id="jhh7.1206526942738083680" type="CONCEPT" from="NamedVariable" to="VariableNamed" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="2" />
+    </dependencies>
+    <rename id="jhh7.1206526942737339969" type="CONCEPT" from="LineComment" to="CommentLine" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="3" />
+    </dependencies>
+    <rename id="jhh7.1206526942737791489" type="CONCEPT" from="BlockComment" to="CommentBlock" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="4" />
+    </dependencies>
+    <rename id="jhh7.1206526942738898680" type="CHILD" from="dsf" to="name" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="5" />
+    </dependencies>
+    <rename id="jhh7.1206526942738886115" type="CONCEPT" from="ModuleDeclaration" to="ModuleDecl" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="6" />
+    </dependencies>
+    <rename id="jhh7.1206526942739013990" type="CHILD" from="namespace" to="module" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="7" />
+    </dependencies>
+    <rename id="jhh7.1206526942739014012" type="CHILD" from="name" to="function" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="8" />
+    </dependencies>
+    <rename id="jhh7.1206526942739013896" type="CONCEPT" from="ImportItem" to="ImportModuleItem" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="9" />
+    </dependencies>
+    <rename id="jhh7.1206526942739013896" type="CONCEPT" from="ImportModuleItem" to="ImportModuleIsdm" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="10" />
+    </dependencies>
+    <rename id="jhh7.1206526942739013896" type="CONCEPT" from="ImportModuleIsdm" to="ImportFunctionItem" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="11" />
+    </dependencies>
+    <rename id="jhh7.1206526942739080314" type="CHILD" from="imports" to="functionImports" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="12" />
+    </dependencies>
+    <rename id="jhh7.1206526942739587127" type="CHILD" from="fun" to="functionDirective" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="13" />
+    </dependencies>
+    <rename id="jhh7.1206526942739774623" type="PROPERTY" from="vat" to="val" />
+  </StructureModification>
+</history>
+
