@@ -1,24 +1,2 @@
 
 *.class
-
-languages/Picat/classes_gen/Picat/behavior/trace.info
-
-languages/Picat/classes_gen/Picat/constraints/trace.info
-
-languages/Picat/classes_gen/Picat/editor/trace.info
-
-languages/Picat/classes_gen/Picat/structure/trace.info
-
-languages/Picat/classes_gen/Picat/trace.info
-
-languages/Picat/classes_gen/Picat/typesystem/trace.info
-
-languages/Picat/source_gen.caches/*.*
-
-languages/Picat/source_gen.caches/
-
-languages/Picat/sandbox/source_gen.caches/
-
-languages/Picat/source_gen/
-
-languages/Picat/generator/source_gen.caches/

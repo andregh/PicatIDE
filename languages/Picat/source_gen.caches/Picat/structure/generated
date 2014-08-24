@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="-5tmohaoazqwiysf95gq7sz5swjlg32h">
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="5sdbpqxziyuazpb9j1p4zdk6bnvbn49" />
+  <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="-5mgxduek28h3ywdzzsk4capaz4hgjm0" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="303xz1b2lyseld0axia86q3lpvucmq6" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
+  <common hash="33xgv5eu96qqcz4m2m8pfkn7usacd21" dependsOnNodes="true">
+    <dep root="1206526942737339969" />
+    <dep root="1206526942737773826" />
+    <dep root="1206526942737782584" />
+    <dep root="1206526942737791489" />
+    <dep root="1206526942737937327" />
+    <dep root="1206526942738083527" />
+    <dep root="1206526942738083589" />
+    <dep root="1206526942738083680" />
+    <dep root="1206526942738163212" />
+    <dep root="1206526942738886115" />
+    <dep root="1206526942739003172" />
+    <dep root="1206526942739013896" />
+    <dep root="1206526942739266265" />
+    <dep root="1206526942739586096" />
+    <dep root="1206526942739586899" />
+    <dep root="1206526942739586997" />
+    <dep root="1206526942739587098" />
+    <dep root="1206526942739603285" />
+    <dep root="1206526942739603358" />
+    <dep root="1206526942739603399" />
+    <dep root="1206526942739603441" />
+    <dep root="1206526942739603631" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="StructureAspectDescriptor.java" />
+  </common>
+  <source id="1206526942737339969" name="CommentLine" hash="-eg97itncqfdn18py700lnvzpsvlzwqx" />
+  <source id="1206526942737773826" name="Root" hash="-53b3k1mzfkew7zbvazh8n8opvm0p0b5" />
+  <source id="1206526942737782584" name="PicatConcept" hash="2x6ablprxtgf7319h99mkodkxg8cvtw" />
+  <source id="1206526942737791489" name="CommentBlock" hash="-dl9ynw65fsurv60wn8l2icjcv5mwxax" />
+  <source id="1206526942737937327" name="Atom" hash="dyixsyxjwsyoo07scvha73yrfugwbfe" />
+  <source id="1206526942738083527" name="Variable" hash="1k5hkw65e9cs13ygmsu69v4i0tcxm4i" />
+  <source id="1206526942738083589" name="VariableAnonymous" hash="ctw9q6icbiixdv4ak7xyot5e7mt1s86" />
+  <source id="1206526942738083680" name="VariableNamed" hash="-xr09md6vqx0w8q14mz6dgtdej3hkki" />
+  <source id="1206526942738163212" name="Operator" hash="-c8a0aaadjt55jfcde2cebzfc7aivphp" />
+  <source id="1206526942738886115" name="ModuleDecl" hash="5frb1dj2d5pcvaqftj2bep3qmqfsrxv" />
+  <source id="1206526942739003172" name="ImportDecl" hash="-ebbpb4oqokbhvas8xxqncnyp12qom8l" />
+  <source id="1206526942739013896" name="ImportFunctionItem" hash="-4zf035x6i4qqh3v0ivzt4pq9bb7xmad" />
+  <source id="1206526942739266265" name="ImportModuleItem" hash="-61m7rhzi70p28ais3abtqdk0phbzk0u" />
+  <source id="1206526942739586096" name="FunctionDirective" hash="-a8b4gq8uw7mj2stkt7nxt4dd0tww78r" />
+  <source id="1206526942739586899" name="FunctionDirectivePrive" hash="78aj2694b60rnzckej1g8z3ikzcd6id" />
+  <source id="1206526942739586997" name="FunctionDirectiveTable" hash="-eddzvgw6fcg4gd9iizo4ivkkiwvqb5s" />
+  <source id="1206526942739587098" name="FunctionDef" hash="-7gzsw8voyx7itbabq10ra2rmyybuut3" />
+  <source id="1206526942739603285" name="FunctionRuleOrFact" hash="6umpgilxy5jfprwvu86301alj5za98z" />
+  <source id="1206526942739603358" name="FunctionFact" hash="-1t1lez6giaq0slrjxjd9vvk5yz0xoga" />
+  <source id="1206526942739603399" name="FunctionRule" hash="9puw4celjhw9buiv61xy9h7lfqc8nm1" />
+  <source id="1206526942739603441" name="Head" hash="ea37spgjwgcm74hqgkhi2pm205n7kze" />
+  <source id="1206526942739603631" name="Term" hash="8q360km7fn0gt709k15rxtisjwkgf6n" />
+</dependencies>
+
