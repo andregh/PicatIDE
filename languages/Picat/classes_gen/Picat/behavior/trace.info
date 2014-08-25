@@ -4,6 +4,7 @@
   <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="58" endPosition="0" unitName="Picat.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="CommentBlock_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Picat.behavior.CommentBlock_BehaviorDescriptor" />
   <unitInfo fileName="CommentLine_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Picat.behavior.CommentLine_BehaviorDescriptor" />
+  <unitInfo fileName="EmptyLine_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Picat.behavior.EmptyLine_BehaviorDescriptor" />
   <unitInfo fileName="FunctionDef_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Picat.behavior.FunctionDef_BehaviorDescriptor" />
   <unitInfo fileName="FunctionDirectivePrive_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Picat.behavior.FunctionDirectivePrive_BehaviorDescriptor" />
   <unitInfo fileName="FunctionDirectiveTable_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Picat.behavior.FunctionDirectiveTable_BehaviorDescriptor" />
@@ -13,13 +14,12 @@
   <unitInfo fileName="FunctionRule_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Picat.behavior.FunctionRule_BehaviorDescriptor" />
   <unitInfo fileName="Head_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Picat.behavior.Head_BehaviorDescriptor" />
   <unitInfo fileName="ImportDecl_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Picat.behavior.ImportDecl_BehaviorDescriptor" />
-  <unitInfo fileName="ImportFunctionItem_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Picat.behavior.ImportFunctionItem_BehaviorDescriptor" />
-  <unitInfo fileName="ImportModuleItem_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Picat.behavior.ImportModuleItem_BehaviorDescriptor" />
-  <unitInfo fileName="ModuleDecl_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Picat.behavior.ModuleDecl_BehaviorDescriptor" />
+  <unitInfo fileName="ImportItem_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Picat.behavior.ImportItem_BehaviorDescriptor" />
+  <unitInfo fileName="ModuleDecl_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="Picat.behavior.ModuleDecl_BehaviorDescriptor" />
   <unitInfo fileName="Operator_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Picat.behavior.Operator_BehaviorDescriptor" />
   <unitInfo fileName="PicatConcept_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Picat.behavior.PicatConcept_BehaviorDescriptor" />
   <unitInfo fileName="Root_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Picat.behavior.Root_BehaviorDescriptor" />
-  <unitInfo fileName="Term_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Picat.behavior.Term_BehaviorDescriptor" />
+  <unitInfo fileName="Term_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="Picat.behavior.Term_BehaviorDescriptor" />
   <unitInfo fileName="VariableAnonymous_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Picat.behavior.VariableAnonymous_BehaviorDescriptor" />
   <unitInfo fileName="VariableNamed_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Picat.behavior.VariableNamed_BehaviorDescriptor" />
   <unitInfo fileName="Variable_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Picat.behavior.Variable_BehaviorDescriptor" />

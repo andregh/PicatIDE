@@ -20,29 +20,29 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 2:
         return new ConceptDescriptorBuilder("Picat.structure.CommentLine").super_("Picat.structure.PicatConcept").parents("Picat.structure.PicatConcept").properties("text").create();
       case 3:
-        return new ConceptDescriptorBuilder("Picat.structure.FunctionDef").super_("Picat.structure.PicatConcept").parents("Picat.structure.PicatConcept").children(new String[]{"functionDirective", "functionRules"}, new boolean[]{true, true}).create();
+        return new ConceptDescriptorBuilder("Picat.structure.EmptyLine").super_("Picat.structure.PicatConcept").parents("Picat.structure.PicatConcept").create();
       case 4:
-        return new ConceptDescriptorBuilder("Picat.structure.FunctionDirective").super_("Picat.structure.PicatConcept").parents("Picat.structure.PicatConcept").abstract_().create();
+        return new ConceptDescriptorBuilder("Picat.structure.FunctionDef").super_("Picat.structure.PicatConcept").parents("Picat.structure.PicatConcept").children(new String[]{"functionDirective", "functionRules"}, new boolean[]{true, true}).create();
       case 5:
-        return new ConceptDescriptorBuilder("Picat.structure.FunctionDirectivePrive").super_("Picat.structure.FunctionDirective").parents("Picat.structure.FunctionDirective").create();
+        return new ConceptDescriptorBuilder("Picat.structure.FunctionDirective").super_("Picat.structure.PicatConcept").parents("Picat.structure.PicatConcept").abstract_().create();
       case 6:
-        return new ConceptDescriptorBuilder("Picat.structure.FunctionDirectiveTable").super_("Picat.structure.FunctionDirective").parents("Picat.structure.FunctionDirective").create();
+        return new ConceptDescriptorBuilder("Picat.structure.FunctionDirectivePrive").super_("Picat.structure.FunctionDirective").parents("Picat.structure.FunctionDirective").create();
       case 7:
-        return new ConceptDescriptorBuilder("Picat.structure.FunctionFact").super_("Picat.structure.FunctionRuleOrFact").parents("Picat.structure.FunctionRuleOrFact").create();
+        return new ConceptDescriptorBuilder("Picat.structure.FunctionDirectiveTable").super_("Picat.structure.FunctionDirective").parents("Picat.structure.FunctionDirective").create();
       case 8:
-        return new ConceptDescriptorBuilder("Picat.structure.FunctionRule").super_("Picat.structure.FunctionRuleOrFact").parents("Picat.structure.FunctionRuleOrFact").create();
+        return new ConceptDescriptorBuilder("Picat.structure.FunctionFact").super_("Picat.structure.FunctionRuleOrFact").parents("Picat.structure.FunctionRuleOrFact").create();
       case 9:
-        return new ConceptDescriptorBuilder("Picat.structure.FunctionRuleOrFact").super_("Picat.structure.PicatConcept").parents("Picat.structure.PicatConcept").abstract_().create();
+        return new ConceptDescriptorBuilder("Picat.structure.FunctionRule").super_("Picat.structure.FunctionRuleOrFact").parents("Picat.structure.FunctionRuleOrFact").create();
       case 10:
-        return new ConceptDescriptorBuilder("Picat.structure.Head").super_("Picat.structure.PicatConcept").parents("Picat.structure.PicatConcept").children(new String[]{"name", "params"}, new boolean[]{false, true}).create();
+        return new ConceptDescriptorBuilder("Picat.structure.FunctionRuleOrFact").super_("Picat.structure.PicatConcept").parents("Picat.structure.PicatConcept").abstract_().create();
       case 11:
-        return new ConceptDescriptorBuilder("Picat.structure.ImportDecl").super_("Picat.structure.PicatConcept").parents("Picat.structure.PicatConcept").children(new String[]{"moduleImports"}, new boolean[]{true}).create();
+        return new ConceptDescriptorBuilder("Picat.structure.Head").super_("Picat.structure.PicatConcept").parents("Picat.structure.PicatConcept").children(new String[]{"name", "params"}, new boolean[]{false, true}).create();
       case 12:
-        return new ConceptDescriptorBuilder("Picat.structure.ImportFunctionItem").super_("Picat.structure.ImportModuleItem").parents("Picat.structure.ImportModuleItem").properties("arity").children(new String[]{"function"}, new boolean[]{false}).create();
+        return new ConceptDescriptorBuilder("Picat.structure.ImportDecl").super_("Picat.structure.PicatConcept").parents("Picat.structure.PicatConcept").children(new String[]{"moduleImports"}, new boolean[]{true}).alias("import", "").create();
       case 13:
-        return new ConceptDescriptorBuilder("Picat.structure.ImportModuleItem").super_("Picat.structure.PicatConcept").parents("Picat.structure.PicatConcept").references("module").create();
+        return new ConceptDescriptorBuilder("Picat.structure.ImportItem").super_("Picat.structure.PicatConcept").parents("Picat.structure.PicatConcept").properties("arity").references("module").children(new String[]{"function"}, new boolean[]{false}).create();
       case 14:
-        return new ConceptDescriptorBuilder("Picat.structure.ModuleDecl").super_("Picat.structure.PicatConcept").parents("Picat.structure.PicatConcept").children(new String[]{"name"}, new boolean[]{false}).alias("Module", "").create();
+        return new ConceptDescriptorBuilder("Picat.structure.ModuleDecl").super_("Picat.structure.PicatConcept").parents("Picat.structure.PicatConcept", "jetbrains.mps.lang.core.structure.INamedConcept").children(new String[]{"name"}, new boolean[]{false}).alias("module", "").create();
       case 15:
         return new ConceptDescriptorBuilder("Picat.structure.Operator").super_("Picat.structure.PicatConcept").parents("Picat.structure.PicatConcept").properties("val").create();
       case 16:
@@ -50,7 +50,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 17:
         return new ConceptDescriptorBuilder("Picat.structure.Root").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").children(new String[]{"concepts"}, new boolean[]{true}).create();
       case 18:
-        return new ConceptDescriptorBuilder("Picat.structure.Term").super_("Picat.structure.PicatConcept").parents("Picat.structure.PicatConcept").properties("val").create();
+        return new ConceptDescriptorBuilder("Picat.structure.Term").super_("Picat.structure.PicatConcept").parents("Picat.structure.PicatConcept", "jetbrains.mps.lang.core.structure.INamedConcept").properties("val").create();
       case 19:
         return new ConceptDescriptorBuilder("Picat.structure.Variable").super_("Picat.structure.Term").parents("Picat.structure.Term").abstract_().create();
       case 20:
@@ -62,5 +62,5 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
     }
   }
 
-  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"Picat.structure.Atom", "Picat.structure.CommentBlock", "Picat.structure.CommentLine", "Picat.structure.FunctionDef", "Picat.structure.FunctionDirective", "Picat.structure.FunctionDirectivePrive", "Picat.structure.FunctionDirectiveTable", "Picat.structure.FunctionFact", "Picat.structure.FunctionRule", "Picat.structure.FunctionRuleOrFact", "Picat.structure.Head", "Picat.structure.ImportDecl", "Picat.structure.ImportFunctionItem", "Picat.structure.ImportModuleItem", "Picat.structure.ModuleDecl", "Picat.structure.Operator", "Picat.structure.PicatConcept", "Picat.structure.Root", "Picat.structure.Term", "Picat.structure.Variable", "Picat.structure.VariableAnonymous", "Picat.structure.VariableNamed"};
+  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"Picat.structure.Atom", "Picat.structure.CommentBlock", "Picat.structure.CommentLine", "Picat.structure.EmptyLine", "Picat.structure.FunctionDef", "Picat.structure.FunctionDirective", "Picat.structure.FunctionDirectivePrive", "Picat.structure.FunctionDirectiveTable", "Picat.structure.FunctionFact", "Picat.structure.FunctionRule", "Picat.structure.FunctionRuleOrFact", "Picat.structure.Head", "Picat.structure.ImportDecl", "Picat.structure.ImportItem", "Picat.structure.ModuleDecl", "Picat.structure.Operator", "Picat.structure.PicatConcept", "Picat.structure.Root", "Picat.structure.Term", "Picat.structure.Variable", "Picat.structure.VariableAnonymous", "Picat.structure.VariableNamed"};
 }

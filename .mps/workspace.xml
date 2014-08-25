@@ -7,8 +7,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0680ca7f-d14b-472a-9b4e-dfb15b490b58" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/behavior/EmptyLine_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/editor/EmptyLine_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/behavior/ImportItem_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/editor/ImportItem_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/actions/QueriesGenerated.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Picat/languageModels/actions.mps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Picat/source_gen.caches/Picat/actions/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Picat/source_gen.caches/Picat/actions/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Picat/classes_gen/Picat/actions/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/actions/trace.info" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/behavior/ImportFunctionItem_BehaviorDescriptor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/behavior/ImportModuleItem_BehaviorDescriptor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/editor/ImportFunctionItem_Editor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/editor/ImportModule.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/editor/ImportModuleItem_Editor.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/behavior/BehaviorAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/behavior/BehaviorAspectDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/editor/EditorAspectDescriptorImpl.java" afterPath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/editor/EditorAspectDescriptorImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/editor/Eor.java" afterPath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/editor/Eor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/editor/ImportDecl_Editor.java" afterPath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/editor/ImportDecl_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/behavior/ModuleDecl_BehaviorDescriptor.java" afterPath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/behavior/ModuleDecl_BehaviorDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/editor/ModuleDecl_Editor.java" afterPath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/editor/ModuleDecl_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/Picat.mpl" afterPath="$PROJECT_DIR$/languages/Picat/Picat.mpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/editor/Root_Editor.java" afterPath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/editor/Root_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/structure/StructureAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/structure/StructureAspectDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/behavior/Term_BehaviorDescriptor.java" afterPath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/behavior/Term_BehaviorDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/editor/Term_Editor.java" afterPath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/editor/Term_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/languageModels/constraints.mps" afterPath="$PROJECT_DIR$/languages/Picat/languageModels/constraints.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/source_gen.caches/Picat/behavior/dependencies" afterPath="$PROJECT_DIR$/languages/Picat/source_gen.caches/Picat/behavior/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/source_gen.caches/Picat/editor/dependencies" afterPath="$PROJECT_DIR$/languages/Picat/source_gen.caches/Picat/editor/dependencies" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/Picat/languageModels/editor.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/sandbox/source_gen.caches/Picat/sandbox/generated" afterPath="$PROJECT_DIR$/languages/Picat/sandbox/source_gen.caches/Picat/sandbox/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/source_gen.caches/Picat/generated" afterPath="$PROJECT_DIR$/languages/Picat/source_gen.caches/Picat/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/source_gen.caches/Picat/behavior/generated" afterPath="$PROJECT_DIR$/languages/Picat/source_gen.caches/Picat/behavior/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/source_gen.caches/Picat/constraints/generated" afterPath="$PROJECT_DIR$/languages/Picat/source_gen.caches/Picat/constraints/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/source_gen.caches/Picat/editor/generated" afterPath="$PROJECT_DIR$/languages/Picat/source_gen.caches/Picat/editor/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/source_gen.caches/Picat/structure/generated" afterPath="$PROJECT_DIR$/languages/Picat/source_gen.caches/Picat/structure/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/sandbox/models/Picat/sandbox.mps" afterPath="$PROJECT_DIR$/languages/Picat/sandbox/models/Picat/sandbox.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/languageModels/structure.history" afterPath="$PROJECT_DIR$/languages/Picat/languageModels/structure.history" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/Picat/languageModels/structure.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/classes_gen/Picat/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/Picat/classes_gen/Picat/behavior/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/classes_gen/Picat/editor/trace.info" afterPath="$PROJECT_DIR$/languages/Picat/classes_gen/Picat/editor/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/behavior/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/editor/trace.info" afterPath="$PROJECT_DIR$/languages/Picat/source_gen/Picat/editor/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
     </list>
     <ignored path="PicatIDE.iws" />
@@ -25,7 +66,7 @@
       <list>
         <TabState>
           <option name="title" value="Console" />
-          <option name="history" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;model modelUID=&quot;r:8f4c7a37-25f3-4710-b47f-36689ae366f9(TempModel_1408916987164806000)&quot;&gt;&#10;  &lt;persistence version=&quot;8&quot; /&gt;&#10;  &lt;language namespace=&quot;de1ad86d-6e50-4a02-b306-d4d17f64c375(jetbrains.mps.console.base)&quot; /&gt;&#10;  &lt;language namespace=&quot;f26691d2-0def-4c06-aec6-2cb90c4af0a4(jetbrains.mps.console.scripts)&quot; /&gt;&#10;  &lt;language namespace=&quot;1a8554c4-eb84-43ba-8c34-6f0d90c6e75a(jetbrains.mps.console.blCommand)&quot; /&gt;&#10;  &lt;language namespace=&quot;a5e4de53-46a3-44da-aab3-68fdf1c34ed0(jetbrains.mps.console.ideCommands)&quot; /&gt;&#10;  &lt;language namespace=&quot;995a7394-7f76-4b8b-a929-c53448708106(jetbrains.mps.console.internalCommands)&quot; /&gt;&#10;  &lt;devkit namespace=&quot;fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)&quot; /&gt;&#10;  &lt;import index=&quot;eynw&quot; modelUID=&quot;r:359b1d2b-77c4-46df-9bf2-b25cbea32254(jetbrains.mps.console.base.structure)&quot; version=&quot;1&quot; /&gt;&#10;  &lt;import index=&quot;z2sp&quot; modelUID=&quot;r:e712f353-5c3c-4288-adce-87c956a52ffb(jetbrains.mps.console.scripts.structure)&quot; version=&quot;0&quot; /&gt;&#10;  &lt;import index=&quot;3xdn&quot; modelUID=&quot;r:935ba0ee-7291-4caa-a807-d76e8fc69391(jetbrains.mps.console.blCommand.structure)&quot; version=&quot;3&quot; /&gt;&#10;  &lt;import index=&quot;caxt&quot; modelUID=&quot;r:135a606f-0376-4c5c-9ab8-4030f051a062(jetbrains.mps.console.ideCommands.structure)&quot; version=&quot;-1&quot; /&gt;&#10;  &lt;import index=&quot;wns9&quot; modelUID=&quot;r:90445206-a973-4c1d-b760-30e5c77b7497(jetbrains.mps.console.internalCommands.structure)&quot; version=&quot;-1&quot; /&gt;&#10;  &lt;import index=&quot;tpck&quot; modelUID=&quot;r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)&quot; version=&quot;0&quot; implicit=&quot;yes&quot; /&gt;&#10;  &lt;root type=&quot;eynw.ConsoleRoot&quot; typeId=&quot;eynw.1583916890557930028&quot; id=&quot;9074910228089973803&quot; nodeInfo=&quot;ng&quot;&gt;&#10;    &lt;node role=&quot;history&quot; roleId=&quot;eynw.1583916890557930415&quot; type=&quot;eynw.History&quot; typeId=&quot;eynw.757553790980850366&quot; id=&quot;1206526942737325426&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;    &lt;node role=&quot;commandHolder&quot; roleId=&quot;eynw.1583916890557930417&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;9074910228089973804&quot; nodeInfo=&quot;ng&quot;&gt;&#10;      &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;    &lt;/node&gt;&#10;  &lt;/root&gt;&#10;&lt;/model&gt;&#10;&#10;" />
+          <option name="history" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;model modelUID=&quot;r:f474d1dc-b5ff-4f64-af29-bffea37499c9(TempModel_1408996449090762000)&quot;&gt;&#10;  &lt;persistence version=&quot;8&quot; /&gt;&#10;  &lt;language namespace=&quot;de1ad86d-6e50-4a02-b306-d4d17f64c375(jetbrains.mps.console.base)&quot; /&gt;&#10;  &lt;language namespace=&quot;f26691d2-0def-4c06-aec6-2cb90c4af0a4(jetbrains.mps.console.scripts)&quot; /&gt;&#10;  &lt;language namespace=&quot;1a8554c4-eb84-43ba-8c34-6f0d90c6e75a(jetbrains.mps.console.blCommand)&quot; /&gt;&#10;  &lt;language namespace=&quot;a5e4de53-46a3-44da-aab3-68fdf1c34ed0(jetbrains.mps.console.ideCommands)&quot; /&gt;&#10;  &lt;language namespace=&quot;995a7394-7f76-4b8b-a929-c53448708106(jetbrains.mps.console.internalCommands)&quot; /&gt;&#10;  &lt;devkit namespace=&quot;fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)&quot; /&gt;&#10;  &lt;import index=&quot;eynw&quot; modelUID=&quot;r:359b1d2b-77c4-46df-9bf2-b25cbea32254(jetbrains.mps.console.base.structure)&quot; version=&quot;1&quot; /&gt;&#10;  &lt;import index=&quot;z2sp&quot; modelUID=&quot;r:e712f353-5c3c-4288-adce-87c956a52ffb(jetbrains.mps.console.scripts.structure)&quot; version=&quot;0&quot; /&gt;&#10;  &lt;import index=&quot;3xdn&quot; modelUID=&quot;r:935ba0ee-7291-4caa-a807-d76e8fc69391(jetbrains.mps.console.blCommand.structure)&quot; version=&quot;3&quot; /&gt;&#10;  &lt;import index=&quot;caxt&quot; modelUID=&quot;r:135a606f-0376-4c5c-9ab8-4030f051a062(jetbrains.mps.console.ideCommands.structure)&quot; version=&quot;-1&quot; /&gt;&#10;  &lt;import index=&quot;wns9&quot; modelUID=&quot;r:90445206-a973-4c1d-b760-30e5c77b7497(jetbrains.mps.console.internalCommands.structure)&quot; version=&quot;-1&quot; /&gt;&#10;  &lt;import index=&quot;tpck&quot; modelUID=&quot;r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)&quot; version=&quot;0&quot; implicit=&quot;yes&quot; /&gt;&#10;  &lt;root type=&quot;eynw.ConsoleRoot&quot; typeId=&quot;eynw.1583916890557930028&quot; id=&quot;5395187569910321662&quot; nodeInfo=&quot;ng&quot;&gt;&#10;    &lt;node role=&quot;history&quot; roleId=&quot;eynw.1583916890557930415&quot; type=&quot;eynw.History&quot; typeId=&quot;eynw.757553790980850366&quot; id=&quot;1206526942737325426&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;    &lt;node role=&quot;commandHolder&quot; roleId=&quot;eynw.1583916890557930417&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;5395187569910321663&quot; nodeInfo=&quot;ng&quot;&gt;&#10;      &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;    &lt;/node&gt;&#10;  &lt;/root&gt;&#10;&lt;/model&gt;&#10;&#10;" />
         </TabState>
       </list>
     </option>
@@ -46,7 +87,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Root" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Root" pinned="false" current="false" current-in-tab="false">
         <entry file="mps://node://Picat.sandbox/Picat.sandbox/Root">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -55,13 +96,10 @@
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
                     <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="165" />
+                    <property name="caretX" value="67" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellNumber="3" isInList="true">
-                      <node node_reference="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942739852992" />
-                      <parent cellId="refNodeList_params" cellNumber="0" isInList="false">
-                        <node node_reference="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942739852992" />
-                      </parent>
+                    <cellInfo cellId="empty_moduleImports" cellNumber="0" isInList="false">
+                      <node node_reference="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/5395187569912267721" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -69,8 +107,18 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942739852992" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
+              <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" viewPositionX="0" viewPositionY="54">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="135" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="empty_menuDescriptor" cellNumber="0" isInList="false">
+                      <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
                 <errorLabels />
                 <folded />
                 <enabledHints />
@@ -79,8 +127,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommentBlock" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://Picat/Picat.structure/CommentBlock">
+      <file leaf-file-name="EmptyLine" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://Picat/Picat.structure/EmptyLine">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
               <memento viewPositionX="0" viewPositionY="0">
@@ -88,10 +136,10 @@
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
                     <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="15" />
+                    <property name="caretX" value="63" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                      <node node_reference="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942737791489" />
+                    <cellInfo cellId="property_text" cellNumber="0" isInList="false">
+                      <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/5395187569912052221" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -99,13 +147,105 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942739852992" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
+              <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" viewPositionX="0" viewPositionY="54">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="135" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="empty_menuDescriptor" cellNumber="0" isInList="false">
+                      <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942737791489" />
+              <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/5395187569912052219" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Root" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://Picat/Picat.structure/Root">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="24" />
+                    <property name="caretX" value="111" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_role" cellNumber="0" isInList="false">
+                      <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942737775903" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" viewPositionX="0" viewPositionY="54">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="135" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="empty_menuDescriptor" cellNumber="0" isInList="false">
+                      <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </inspectorMemento>
+              <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942737775850" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FunctionRuleOrFact" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://Picat/Picat.structure/FunctionRuleOrFact">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="147" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="TransactionalProperty_ueqr71_d0a" cellNumber="0" isInList="false">
+                      <node node_reference="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942739603285" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" viewPositionX="0" viewPositionY="54">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="135" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="empty_menuDescriptor" cellNumber="0" isInList="false">
+                      <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </inspectorMemento>
+              <node node_ref="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942739603285" />
             </state>
           </provider>
         </entry>
@@ -118,42 +258,11 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="80" />
-                    <property name="caretX" value="143" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/9074910228090417290" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942739852992" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942739831445" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImportFunctionItem" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://Picat/Picat.structure/ImportFunctionItem">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
                     <property name="caretXRelative" value="0" />
                     <property name="caretX" value="15" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                      <node node_reference="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942739013896" />
+                      <node node_reference="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942739603631" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -161,60 +270,14 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942739852992" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942739013896" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImportModuleItem" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://Picat/Picat.structure/ImportModuleItem">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" viewPositionX="0" viewPositionY="54">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
                     <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="147" />
+                    <property name="caretX" value="135" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/9074910228090419076" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942739852992" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/9074910228090419076" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModuleDecl" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://Picat/Picat.structure/ModuleDecl">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="8" />
-                    <property name="caretX" value="191" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="ReadOnlyModelAccessor_abi8e8_a" cellNumber="0" isInList="false">
+                    <cellInfo cellId="empty_menuDescriptor" cellNumber="0" isInList="false">
                       <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" />
                     </cellInfo>
                   </stackElement>
@@ -222,14 +285,49 @@
                 <errorLabels />
                 <folded />
                 <enabledHints />
+              </inspectorMemento>
+              <node node_ref="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942739603631" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImportItem" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://Picat/Picat.structure/ImportItem">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="32" />
+                    <property name="caretX" value="135" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_role" cellNumber="0" isInList="false">
+                      <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/5395187569911581110" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorLabels />
+                <folded />
+                <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942739852992" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
+              <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" viewPositionX="0" viewPositionY="54">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="135" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="empty_menuDescriptor" cellNumber="0" isInList="false">
+                      <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738908672" />
+              <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942739014046" />
             </state>
           </provider>
         </entry>
@@ -242,11 +340,11 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="24" />
-                    <property name="caretX" value="543" />
+                    <property name="caretXRelative" value="88" />
+                    <property name="caretX" value="279" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/9074910228090507081" />
+                    <cellInfo cellId="property_role_1" cellNumber="0" isInList="false">
+                      <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942739080359" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -254,8 +352,18 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942739852992" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
+              <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" viewPositionX="0" viewPositionY="54">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="135" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="empty_menuDescriptor" cellNumber="0" isInList="false">
+                      <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
                 <errorLabels />
                 <folded />
                 <enabledHints />
@@ -265,23 +373,84 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VariableNamed" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://Picat/Picat.structure/VariableNamed">
+      <file leaf-file-name="ModuleDecl" pinned="false" current="true" current-in-tab="true">
+        <entry file="mps://node://Picat/Picat.structure/ModuleDecl">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
               <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="16" />
+                    <property name="caretX" value="183" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_role" cellNumber="0" isInList="false">
+                      <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942739852992" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
+              <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" viewPositionX="0" viewPositionY="54">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="135" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="empty_menuDescriptor" cellNumber="0" isInList="false">
+                      <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942738083680" />
+              <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738908672" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CellModel_RefNode" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://jetbrains.mps.lang.editor/jetbrains.mps.lang.editor.structure/CellModel_RefNode">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="15" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                      <node node_reference="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)/1073389882823" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" viewPositionX="0" viewPositionY="54">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="135" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="empty_menuDescriptor" cellNumber="0" isInList="false">
+                      <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </inspectorMemento>
+              <node node_ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)/1073389882823" />
             </state>
           </provider>
         </entry>
@@ -296,44 +465,23 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942739852992" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/9074910228090412712" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VariableAnonymous" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://Picat/Picat.structure/VariableAnonymous">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" viewPositionX="0" viewPositionY="54">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="8" />
-                    <property name="caretX" value="55" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="135" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_text" cellNumber="0" isInList="false">
-                      <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/9074910228090417500" />
+                    <cellInfo cellId="empty_menuDescriptor" cellNumber="0" isInList="false">
+                      <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <errorLabels />
                 <folded />
                 <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942739852992" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/9074910228090417498" />
+              <node node_ref="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942737782584" />
             </state>
           </provider>
         </entry>
@@ -360,7 +508,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="29" />
+    <option name="x" value="34" />
     <option name="y" value="22" />
     <option name="width" value="1411" />
     <option name="height" value="860" />
@@ -372,7 +520,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectPluginManager">
@@ -433,7 +581,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -469,7 +616,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Picat.editor">
+            <PATH_ELEMENT USER_OBJECT="Picat.actions">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -517,6 +664,7 @@
         </subPane>
       </pane>
       <pane id="FileSystem" />
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -529,36 +677,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JUnit Tests" factoryName="JUnit Tests">
-      <MyState />
-      <myJUnitSettings>
-        <MyState>
-          <option name="myModel" />
-          <option name="myModule" />
-          <option name="myTestCases">
-            <list />
-          </option>
-          <option name="myTestMethods">
-            <list />
-          </option>
-          <option name="myRunType" value="PROJECT" />
-        </MyState>
-      </myJUnitSettings>
-      <myJavaRunParameters>
-        <MyState>
-          <option name="myJavaRunParameters">
-            <JavaRunParameters>
-              <option name="jrePath" />
-              <option name="programParameters" />
-              <option name="useAlternativeJre" value="false" />
-              <option name="vmOptions" />
-              <option name="workingDirectory" />
-            </JavaRunParameters>
-          </option>
-        </MyState>
-      </myJavaRunParameters>
-      <method />
-    </configuration>
     <list size="0" />
     <configuration name="&lt;template&gt;" type="Application" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
@@ -600,10 +718,10 @@
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="22" width="1411" height="860" extended-state="0" />
+    <frame x="34" y="22" width="1411" height="860" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5003626" order="7" side_tool="true" content_ui="tabs" />
@@ -619,13 +737,13 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.49928057" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.75107914" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.24892086" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.24892086" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1114,93 +1232,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Picat/Picat.structure/Root">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="96" />
-                <property name="caretX" value="211" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942737773934" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942738886134" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942737773826" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Picat/Picat.structure/Operator">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="8" />
-                <property name="caretX" value="103" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="ReadOnlyModelAccessor_abi8e8_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738163353" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942739603147" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738163300" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Picat/Picat.structure/FunctionDirective">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="147" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="TransactionalProperty_ueqr71_d0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942739586096" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942739603358" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942739586096" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://Picat/Picat.structure/FunctionDirectivePrive">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
@@ -1227,64 +1258,6 @@
             <enabledHints />
           </inspectorMemento>
           <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942739586931" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Picat/Picat.structure/FunctionDirectiveTable">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="72" />
-                <property name="caretX" value="87" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_cth9w3_a0a0" cellNumber="0" isInList="false">
-                  <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942739587030" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942739603358" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942739587030" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Picat/Picat.structure/FunctionRuleOrFact">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="16" />
-                <property name="caretX" value="99" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942739603285" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942739603358" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942739603285" />
         </state>
       </provider>
     </entry>
@@ -1355,25 +1328,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Picat/Picat.structure/Head">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942739080370" viewPositionX="0" viewPositionY="-4">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942739603787" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://Picat/Picat.structure/Variable">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
@@ -1400,35 +1354,6 @@
             <enabledHints />
           </inspectorMemento>
           <node node_ref="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942738083527" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Picat/Picat.structure/Atom">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="15" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942737937327" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/9074910228090417290" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942737937327" />
         </state>
       </provider>
     </entry>
@@ -1460,37 +1385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Picat.sandbox/Picat.sandbox/Root">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="165" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellNumber="3" isInList="true">
-                  <node node_reference="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942739852992" />
-                  <parent cellId="refNodeList_params" cellNumber="0" isInList="false">
-                    <node node_reference="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942739852992" />
-                  </parent>
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942739852992" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://Picat/Picat.structure/CommentBlock">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
@@ -1510,177 +1404,13 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942739852992" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942737775819" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
             <enabledHints />
           </inspectorMemento>
           <node node_ref="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942737791489" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Picat/Picat.structure/VariableAnonymous">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="8" />
-                <property name="caretX" value="55" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_text" cellNumber="0" isInList="false">
-                  <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/9074910228090417500" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942739852992" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/9074910228090417498" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Picat/Picat.structure/ImportDecl">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="24" />
-                <property name="caretX" value="543" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/9074910228090507081" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942739852992" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942739080344" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Picat/Picat.structure/PicatConcept">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942739852992" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/9074910228090412712" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Picat/Picat.structure/ImportFunctionItem">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="15" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942739013896" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942739852992" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942739013896" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Picat/Picat.structure/ModuleDecl">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="8" />
-                <property name="caretX" value="191" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="ReadOnlyModelAccessor_abi8e8_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942739852992" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738908672" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Picat/Picat.structure/Term">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="80" />
-                <property name="caretX" value="143" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/9074910228090417290" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942739852992" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942739831445" />
         </state>
       </provider>
     </entry>
@@ -1693,17 +1423,113 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942739852992" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/5395187569911084971" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942738083680" />
+          <node node_ref="r:0108bc71-abe7-423c-9d7e-b1487a5247fa(Picat.constraints)/1206526942738083810" />
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Picat/Picat.structure/ImportModuleItem">
+    <entry file="mps://node://Picat/Picat.structure/VariableAnonymous">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/5395187569911406059" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/9074910228090417498" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Picat/Picat.structure/Operator">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/5395187569911005088" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="128" />
+                <property name="caretX" value="159" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
+                  <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/5395187569911531399" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:0108bc71-abe7-423c-9d7e-b1487a5247fa(Picat.constraints)/1206526942738163378" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Picat/Picat.structure/Head">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942739013896" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942739603787" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Picat/Picat.structure/FunctionDirectiveTable">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942739586997" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942739014134" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942739586997" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Picat/Picat.structure/FunctionDirective">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
           <memento viewPositionX="0" viewPositionY="0">
@@ -1713,8 +1539,8 @@
                 <property name="caretXRelative" value="0" />
                 <property name="caretX" value="147" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/9074910228090419076" />
+                <cellInfo cellId="TransactionalProperty_ueqr71_d0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942739586096" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1722,13 +1548,460 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/1206526942739852992" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/5395187569911960756" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/9074910228090419076" />
+          <node node_ref="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942739586096" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Picat/Picat.structure/Atom">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942737937327" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/5395187569911581110" viewPositionX="0" viewPositionY="12">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="111" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_noTargetText" cellNumber="0" isInList="false">
+                  <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/5395187569911581110" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942737937327" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Picat/Picat.structure/FunctionRuleOrFact">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="147" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="TransactionalProperty_ueqr71_d0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942739603285" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" viewPositionX="0" viewPositionY="54">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="135" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_menuDescriptor" cellNumber="0" isInList="false">
+                  <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942739603285" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Picat/Picat.structure/Term">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942739603631" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" viewPositionX="0" viewPositionY="54">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="135" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_menuDescriptor" cellNumber="0" isInList="false">
+                  <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942739603631" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Picat.sandbox/Picat.sandbox/Root">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="67" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_moduleImports" cellNumber="0" isInList="false">
+                  <node node_reference="r:9971bf68-3e6d-41ae-aba5-d4f1137fdc49(Picat.sandbox)/5395187569912267721" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" viewPositionX="0" viewPositionY="54">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="135" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_menuDescriptor" cellNumber="0" isInList="false">
+                  <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Picat/Picat.structure/ModuleDecl">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="16" />
+                <property name="caretX" value="183" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_role" cellNumber="0" isInList="false">
+                  <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" viewPositionX="0" viewPositionY="54">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="135" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_menuDescriptor" cellNumber="0" isInList="false">
+                  <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738908672" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://jetbrains.mps.lang.editor/jetbrains.mps.lang.editor.structure/CellModel_RefNode">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)/1073389882823" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" viewPositionX="0" viewPositionY="54">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="135" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_menuDescriptor" cellNumber="0" isInList="false">
+                  <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)/1073389882823" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://jetbrains.mps.lang.core/jetbrains.mps.lang.core.structure/BaseConcept">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="147" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="TransactionalProperty_ueqr71_d0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)/1133920641626" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)/1133920641626" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)/1133920641626" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Picat/Picat.structure/ImportItem">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="32" />
+                <property name="caretX" value="135" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_role" cellNumber="0" isInList="false">
+                  <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/5395187569911581110" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" viewPositionX="0" viewPositionY="54">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="135" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_menuDescriptor" cellNumber="0" isInList="false">
+                  <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942739014046" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Picat/Picat.structure/PicatConcept">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" viewPositionX="0" viewPositionY="54">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="135" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_menuDescriptor" cellNumber="0" isInList="false">
+                  <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)/1206526942737782584" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Picat/Picat.structure/Root">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="24" />
+                <property name="caretX" value="111" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_role" cellNumber="0" isInList="false">
+                  <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942737775903" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" viewPositionX="0" viewPositionY="54">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="135" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_menuDescriptor" cellNumber="0" isInList="false">
+                  <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942737775850" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Picat/Picat.structure/EmptyLine">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="63" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_text" cellNumber="0" isInList="false">
+                  <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/5395187569912052221" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" viewPositionX="0" viewPositionY="54">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="135" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_menuDescriptor" cellNumber="0" isInList="false">
+                  <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/5395187569912052219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Picat/Picat.structure/ImportDecl">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="88" />
+                <property name="caretX" value="279" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_role_1" cellNumber="0" isInList="false">
+                  <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942739080359" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" viewPositionX="0" viewPositionY="54">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="135" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_menuDescriptor" cellNumber="0" isInList="false">
+                  <node node_reference="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942738923147" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)/1206526942739080344" />
         </state>
       </provider>
     </entry>

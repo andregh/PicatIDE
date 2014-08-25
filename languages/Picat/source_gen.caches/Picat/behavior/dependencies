@@ -10,6 +10,7 @@
     <classNode dependClassName="Picat.behavior.Atom_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.CommentBlock_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.CommentLine_BehaviorDescriptor" />
+    <classNode dependClassName="Picat.behavior.EmptyLine_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.FunctionDef_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.FunctionDirectivePrive_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.FunctionDirectiveTable_BehaviorDescriptor" />
@@ -17,8 +18,7 @@
     <classNode dependClassName="Picat.behavior.FunctionRule_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.Head_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.ImportDecl_BehaviorDescriptor" />
-    <classNode dependClassName="Picat.behavior.ImportFunctionItem_BehaviorDescriptor" />
-    <classNode dependClassName="Picat.behavior.ImportModuleItem_BehaviorDescriptor" />
+    <classNode dependClassName="Picat.behavior.ImportItem_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.ModuleDecl_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.Operator_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.Root_BehaviorDescriptor" />
@@ -38,6 +38,12 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="Picat.behavior.CommentLine_BehaviorDescriptor" file="CommentLine_BehaviorDescriptor.java">
+    <classNode dependClassName="Picat.behavior.PicatConcept_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="Picat.behavior.EmptyLine_BehaviorDescriptor" file="EmptyLine_BehaviorDescriptor.java">
     <classNode dependClassName="Picat.behavior.PicatConcept_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -97,13 +103,7 @@
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
-  <dependency className="Picat.behavior.ImportFunctionItem_BehaviorDescriptor" file="ImportFunctionItem_BehaviorDescriptor.java">
-    <classNode dependClassName="Picat.behavior.ImportModuleItem_BehaviorDescriptor" />
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="Picat.behavior.ImportModuleItem_BehaviorDescriptor" file="ImportModuleItem_BehaviorDescriptor.java">
+  <dependency className="Picat.behavior.ImportItem_BehaviorDescriptor" file="ImportItem_BehaviorDescriptor.java">
     <classNode dependClassName="Picat.behavior.PicatConcept_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -113,6 +113,10 @@
     <classNode dependClassName="Picat.behavior.PicatConcept_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="Picat.behavior.Operator_BehaviorDescriptor" file="Operator_BehaviorDescriptor.java">
@@ -137,6 +141,10 @@
     <classNode dependClassName="Picat.behavior.PicatConcept_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="Picat.behavior.VariableAnonymous_BehaviorDescriptor" file="VariableAnonymous_BehaviorDescriptor.java">

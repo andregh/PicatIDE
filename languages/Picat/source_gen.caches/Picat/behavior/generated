@@ -4,7 +4,7 @@
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="5sdbpqxziyuazpb9j1p4zdk6bnvbn49" />
   <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="303xz1b2lyseld0axia86q3lpvucmq6" />
   <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" hash="-8z73tx2nml9xagbxlfmq60ehji8q3f5" />
-  <dep model="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" hash="-5tmohaoazqwiysf95gq7sz5swjlg32h" />
+  <dep model="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" hash="6fjrvmzbbmv122wjn8qk5gfvklnon24" />
   <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" hash="-1vtu6uptzx5l7n2n68xt5em9d6nhvec" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
@@ -21,6 +21,7 @@
     <file name="BehaviorAspectDescriptor.java" />
     <file name="CommentBlock_BehaviorDescriptor.java" />
     <file name="CommentLine_BehaviorDescriptor.java" />
+    <file name="EmptyLine_BehaviorDescriptor.java" />
     <file name="FunctionDef_BehaviorDescriptor.java" />
     <file name="FunctionDirectivePrive_BehaviorDescriptor.java" />
     <file name="FunctionDirectiveTable_BehaviorDescriptor.java" />
@@ -30,8 +31,7 @@
     <file name="FunctionRule_BehaviorDescriptor.java" />
     <file name="Head_BehaviorDescriptor.java" />
     <file name="ImportDecl_BehaviorDescriptor.java" />
-    <file name="ImportFunctionItem_BehaviorDescriptor.java" />
-    <file name="ImportModuleItem_BehaviorDescriptor.java" />
+    <file name="ImportItem_BehaviorDescriptor.java" />
     <file name="ModuleDecl_BehaviorDescriptor.java" />
     <file name="Operator_BehaviorDescriptor.java" />
     <file name="PicatConcept_BehaviorDescriptor.java" />

@@ -13,7 +13,20 @@ public class Term_Editor extends DefaultNodeEditor {
     return this.createComponent_lecvv4_a(editorContext, node);
   }
 
+  public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
+    return this.createComponent_lecvv4_a_0(editorContext, node);
+  }
+
   private EditorCell createComponent_lecvv4_a(EditorContext editorContext, SNode node) {
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "Picat.editor.TermEditor");
+    EditorCell bigCell = BigCellUtil.findBigCell(editorCell, node);
+    if (bigCell != null) {
+      bigCell.setBig(true);
+    }
+    return editorCell;
+  }
+
+  private EditorCell createComponent_lecvv4_a_0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "Picat.editor.TermEditor");
     EditorCell bigCell = BigCellUtil.findBigCell(editorCell, node);
     if (bigCell != null) {

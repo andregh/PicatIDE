@@ -10,7 +10,6 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
@@ -19,6 +18,7 @@ import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 
 public class ImportDecl_Editor extends DefaultNodeEditor {
@@ -33,16 +33,14 @@ public class ImportDecl_Editor extends DefaultNodeEditor {
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.apply_Annotation(style, editorCell);
     editorCell.getStyle().putAll(style);
-    editorCell.addEditorCell(this.createConstant_6vrzdq_a0(editorContext, node));
+    editorCell.addEditorCell(this.createComponent_6vrzdq_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_6vrzdq_b0(editorContext, node));
     editorCell.addEditorCell(this.createComponent_6vrzdq_c0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_6vrzdq_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "import");
-    editorCell.setCellId("Constant_6vrzdq_a0");
-    editorCell.setDefaultText("");
+  private EditorCell createComponent_6vrzdq_a0(EditorContext editorContext, SNode node) {
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.alias");
     return editorCell;
   }
 

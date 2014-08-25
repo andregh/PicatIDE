@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-4yz5p4ppidbb3mm175250e1rc582j1z">
+<dependencies version="2" modelHash="2dw3w7gs9icj88pnfj45zc6ll7aygjd">
   <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="303xz1b2lyseld0axia86q3lpvucmq6" />
-  <dep model="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)" hash="-77om5j4183vejcasyzvcl1j74shcz4e" />
+  <dep model="r:8217ddcb-1878-4099-b486-62e68b078616(Picat.editor)" hash="-1blmo8sc1jnjqe2fqrnn0355emsfn12" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
   <dep model="r:e171187c-8aaf-47fc-bc5c-94b055e24da1(Picat.typesystem)" hash="-apfm78gpzqh3asfs1u495l3sivku2bz" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />

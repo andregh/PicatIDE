@@ -20,19 +20,19 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
       case 1:
         return Collections.<ConceptEditor>singletonList(new CommentLine_Editor());
       case 2:
-        return Collections.<ConceptEditor>singletonList(new FunctionDef_Editor());
+        return Collections.<ConceptEditor>singletonList(new EmptyLine_Editor());
       case 3:
-        return Collections.<ConceptEditor>singletonList(new FunctionDirectivePrive_Editor());
+        return Collections.<ConceptEditor>singletonList(new FunctionDef_Editor());
       case 4:
-        return Collections.<ConceptEditor>singletonList(new FunctionDirectiveTable_Editor());
+        return Collections.<ConceptEditor>singletonList(new FunctionDirectivePrive_Editor());
       case 5:
-        return Collections.<ConceptEditor>singletonList(new Head_Editor());
+        return Collections.<ConceptEditor>singletonList(new FunctionDirectiveTable_Editor());
       case 6:
-        return Collections.<ConceptEditor>singletonList(new ImportDecl_Editor());
+        return Collections.<ConceptEditor>singletonList(new Head_Editor());
       case 7:
-        return Collections.<ConceptEditor>singletonList(new ImportFunctionItem_Editor());
+        return Collections.<ConceptEditor>singletonList(new ImportDecl_Editor());
       case 8:
-        return Collections.<ConceptEditor>singletonList(new ImportModuleItem_Editor());
+        return Collections.<ConceptEditor>singletonList(new ImportItem_Editor());
       case 9:
         return Collections.<ConceptEditor>singletonList(new ModuleDecl_Editor());
       case 10:
@@ -51,16 +51,11 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
   public Collection<ConceptEditorComponent> getEditorComponents(ConceptDescriptor descriptor, String editorComponentId) {
     switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0c, descriptor.getConceptFqName())) {
       case 0:
-        if ("Picat.editor.ImportModule".equals(editorComponentId)) {
-          return Collections.<ConceptEditorComponent>singletonList(new ImportModule());
-        }
-        break;
-      case 1:
         if ("Picat.editor.Eor".equals(editorComponentId)) {
           return Collections.<ConceptEditorComponent>singletonList(new Eor());
         }
         break;
-      case 2:
+      case 1:
         if ("Picat.editor.TermEditor".equals(editorComponentId)) {
           return Collections.<ConceptEditorComponent>singletonList(new TermEditor());
         }
@@ -72,6 +67,6 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
 
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"Picat.structure.CommentBlock", "Picat.structure.CommentLine", "Picat.structure.FunctionDef", "Picat.structure.FunctionDirectivePrive", "Picat.structure.FunctionDirectiveTable", "Picat.structure.Head", "Picat.structure.ImportDecl", "Picat.structure.ImportFunctionItem", "Picat.structure.ImportModuleItem", "Picat.structure.ModuleDecl", "Picat.structure.Operator", "Picat.structure.Root", "Picat.structure.Term", "Picat.structure.VariableAnonymous"};
-  private static String[] stringSwitchCases_xbvbvu_a0a0c = new String[]{"Picat.structure.ImportModuleItem", "Picat.structure.PicatConcept", "Picat.structure.Term"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"Picat.structure.CommentBlock", "Picat.structure.CommentLine", "Picat.structure.EmptyLine", "Picat.structure.FunctionDef", "Picat.structure.FunctionDirectivePrive", "Picat.structure.FunctionDirectiveTable", "Picat.structure.Head", "Picat.structure.ImportDecl", "Picat.structure.ImportItem", "Picat.structure.ModuleDecl", "Picat.structure.Operator", "Picat.structure.Root", "Picat.structure.Term", "Picat.structure.VariableAnonymous"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0c = new String[]{"Picat.structure.PicatConcept", "Picat.structure.Term"};
 }

@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-77om5j4183vejcasyzvcl1j74shcz4e">
+<dependencies version="2" modelHash="-1blmo8sc1jnjqe2fqrnn0355emsfn12">
   <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor.cellLayout(MPS.Editor/jetbrains.mps.nodeEditor.cellLayout@java_stub)" />
   <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor.cells(MPS.Editor/jetbrains.mps.nodeEditor.cells@java_stub)" />
   <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor.descriptor(MPS.Editor/jetbrains.mps.openapi.editor.descriptor@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" hash="4eyqn6avs7ndukbjez008himzn5hx33" />
   <dep model="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" hash="3mog46rd3y0fxo829u547taxzf36mel" />
   <dep model="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" hash="-9khjzjzh2lzq07e2c17uifall2do7t6" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cc(jetbrains.mps.baseLanguage.generator.java.conceptFunctionDefaults@generator)" hash="4ufvs4xs06ktftueweounasrg3ano4p" />
   <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="303xz1b2lyseld0axia86q3lpvucmq6" />
   <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" hash="-8z73tx2nml9xagbxlfmq60ehji8q3f5" />
-  <dep model="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" hash="-5tmohaoazqwiysf95gq7sz5swjlg32h" />
+  <dep model="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" hash="6fjrvmzbbmv122wjn8qk5gfvklnon24" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
-  <common hash="4bbpm8rhwcgajumbj1o0fmyqbzepfoh" dependsOnNodes="true">
+  <common hash="-d5l6mxwfqp6g8edial9cspkx6ae7e4i" dependsOnNodes="true">
     <dep root="1206526942737681146" />
     <dep root="1206526942737775850" />
     <dep root="1206526942737791563" />
@@ -19,20 +21,18 @@
     <dep root="1206526942738908672" />
     <dep root="1206526942739014046" />
     <dep root="1206526942739080344" />
-    <dep root="1206526942739365466" />
     <dep root="1206526942739586931" />
     <dep root="1206526942739587030" />
     <dep root="1206526942739603147" />
     <dep root="1206526942739603787" />
     <dep root="1206526942739831445" />
+    <dep root="5395187569912052219" />
     <dep root="9074910228090412712" />
     <dep root="9074910228090414303" />
     <dep root="9074910228090417498" />
-    <dep root="9074910228090419076" />
     <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor.descriptor(MPS.Editor/jetbrains.mps.openapi.editor.descriptor@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
-    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
     <dep model="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" />
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
@@ -47,10 +47,11 @@
     <dep model="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" />
     <file name="CommentLine_Editor.java" />
   </source>
-  <source id="1206526942737775850" name="Root_Editor" hash="50ul14in0747j3nxb9q47i7lj68xnwu">
+  <source id="1206526942737775850" name="Root_Editor" hash="576pjo2tu0zpg82w7c4ktv6nmshjbyr">
     <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor.cellLayout(MPS.Editor/jetbrains.mps.nodeEditor.cellLayout@java_stub)" />
     <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor.cells(MPS.Editor/jetbrains.mps.nodeEditor.cells@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
     <dep model="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" />
     <file name="Root_Editor.java" />
   </source>
@@ -66,36 +67,33 @@
     <dep model="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" />
     <file name="Operator_Editor.java" />
   </source>
-  <source id="1206526942738908672" name="ModuleDecl_Editor" hash="-293zneggpovok0qnbo554gkrf77r43n">
+  <source id="1206526942738908672" name="ModuleDecl_Editor" hash="-3o0pqmnzi5y2sq6ml7kfvdvzveb00ig">
     <dep root="9074910228090412712" />
     <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor.cells(MPS.Editor/jetbrains.mps.nodeEditor.cells@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
     <dep model="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
     <dep model="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" />
     <file name="ModuleDecl_Editor.java" />
   </source>
-  <source id="1206526942739014046" name="ImportFunctionItem_Editor" hash="20c3aaonqqcff8x4nkdz5yjww3p5dnw">
-    <dep root="9074910228090419076" />
+  <source id="1206526942739014046" name="ImportItem_Editor" hash="-1ohdolzlr4trm8tn1lmnrsdsbqppsym">
     <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor.cells(MPS.Editor/jetbrains.mps.nodeEditor.cells@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cc(jetbrains.mps.baseLanguage.generator.java.conceptFunctionDefaults@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
     <dep model="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" />
-    <file name="ImportFunctionItem_Editor.java" />
+    <file name="ImportItem_Editor.java" />
   </source>
-  <source id="1206526942739080344" name="ImportDecl_Editor" hash="6nl8bwgpnj4v986y8n2skto2wolkc9h">
+  <source id="1206526942739080344" name="ImportDecl_Editor" hash="bsfmkc0xszk0hlecyi9eawyvj7gjuvs">
     <dep root="9074910228090412712" />
     <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor.cellLayout(MPS.Editor/jetbrains.mps.nodeEditor.cellLayout@java_stub)" />
     <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor.cells(MPS.Editor/jetbrains.mps.nodeEditor.cells@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
     <dep model="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
     <dep model="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" />
     <file name="ImportDecl_Editor.java" />
-  </source>
-  <source id="1206526942739365466" name="ImportModuleItem_Editor" hash="-zaxf3mocq8mas02bbsflo7gdo4z3yt">
-    <dep root="9074910228090419076" />
-    <dep model="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" />
-    <dep model="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" />
-    <file name="ImportModuleItem_Editor.java" />
   </source>
   <source id="1206526942739586931" name="FunctionDirectivePrive_Editor" hash="-e3iuv6352bimcv6c5a30zow9evlcs8b">
     <dep model="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" />
@@ -121,18 +119,18 @@
     <dep model="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" />
     <file name="Head_Editor.java" />
   </source>
-  <source id="1206526942739831445" name="Term_Editor" hash="-9erjrf0jwj2r5fe6a4zq51qrq1pcfzh">
+  <source id="1206526942739831445" name="Term_Editor" hash="-c60cg8tmolbbfs920qmkslvq6g68pyx">
     <dep root="9074910228090414303" />
     <dep model="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" />
     <dep model="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" />
     <file name="Term_Editor.java" />
   </source>
-  <source id="9074910228090412712" name="Eor" hash="7klbahvhdpqdcpjl9zsnv9ykw3vz0l3">
+  <source id="9074910228090412712" name="Eor" hash="-blfiafz9m1xwzqts7kq9fpfjx8ezpqn">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" />
     <file name="Eor.java" />
   </source>
-  <source id="9074910228090414303" name="TermEditor" hash="ai46pprvmm10ugowgq5hohls2ohkc60">
+  <source id="9074910228090414303" name="TermEditor" hash="2u452pqjkilwk38ivdfcpxb46yt6aj1">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" />
     <dep model="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" />
@@ -143,12 +141,10 @@
     <dep model="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" />
     <file name="VariableAnonymous_Editor.java" />
   </source>
-  <source id="9074910228090419076" name="ImportModule" hash="845lg12w6wexvrq9us5ugfe1sio06u7">
-    <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor.cells(MPS.Editor/jetbrains.mps.nodeEditor.cells@java_stub)" />
-    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+  <source id="5395187569912052219" name="EmptyLine_Editor" hash="6r3qjon0jnap7vns7gqytb6eqd2m0rs">
     <dep model="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" />
     <dep model="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" />
-    <file name="ImportModule.java" />
+    <file name="EmptyLine_Editor.java" />
   </source>
 </dependencies>
 

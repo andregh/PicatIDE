@@ -28,30 +28,30 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new Operator_BehaviorDescriptor();
       case 12:
         return new ModuleDecl_BehaviorDescriptor();
-      case 9:
-        return new ImportDecl_BehaviorDescriptor();
       case 10:
-        return new ImportFunctionItem_BehaviorDescriptor();
+        return new ImportDecl_BehaviorDescriptor();
       case 11:
-        return new ImportModuleItem_BehaviorDescriptor();
-      case 4:
-        return new FunctionDirectivePrive_BehaviorDescriptor();
+        return new ImportItem_BehaviorDescriptor();
       case 5:
-        return new FunctionDirectiveTable_BehaviorDescriptor();
-      case 3:
-        return new FunctionDef_BehaviorDescriptor();
+        return new FunctionDirectivePrive_BehaviorDescriptor();
       case 6:
-        return new FunctionFact_BehaviorDescriptor();
+        return new FunctionDirectiveTable_BehaviorDescriptor();
+      case 4:
+        return new FunctionDef_BehaviorDescriptor();
       case 7:
-        return new FunctionRule_BehaviorDescriptor();
+        return new FunctionFact_BehaviorDescriptor();
       case 8:
+        return new FunctionRule_BehaviorDescriptor();
+      case 9:
         return new Head_BehaviorDescriptor();
       case 15:
         return new Term_BehaviorDescriptor();
+      case 3:
+        return new EmptyLine_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"Picat.structure.Atom", "Picat.structure.CommentBlock", "Picat.structure.CommentLine", "Picat.structure.FunctionDef", "Picat.structure.FunctionDirectivePrive", "Picat.structure.FunctionDirectiveTable", "Picat.structure.FunctionFact", "Picat.structure.FunctionRule", "Picat.structure.Head", "Picat.structure.ImportDecl", "Picat.structure.ImportFunctionItem", "Picat.structure.ImportModuleItem", "Picat.structure.ModuleDecl", "Picat.structure.Operator", "Picat.structure.Root", "Picat.structure.Term", "Picat.structure.VariableAnonymous", "Picat.structure.VariableNamed"};
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"Picat.structure.Atom", "Picat.structure.CommentBlock", "Picat.structure.CommentLine", "Picat.structure.EmptyLine", "Picat.structure.FunctionDef", "Picat.structure.FunctionDirectivePrive", "Picat.structure.FunctionDirectiveTable", "Picat.structure.FunctionFact", "Picat.structure.FunctionRule", "Picat.structure.Head", "Picat.structure.ImportDecl", "Picat.structure.ImportItem", "Picat.structure.ModuleDecl", "Picat.structure.Operator", "Picat.structure.Root", "Picat.structure.Term", "Picat.structure.VariableAnonymous", "Picat.structure.VariableNamed"};
 }
