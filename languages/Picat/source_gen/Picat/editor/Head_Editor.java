@@ -9,20 +9,22 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
-import jetbrains.mps.smodel.IOperationContext;
-import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
+import jetbrains.mps.smodel.IOperationContext;
+import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
+import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.editor.runtime.EditorCell_Empty;
 
 public class Head_Editor extends DefaultNodeEditor {
@@ -35,7 +37,9 @@ public class Head_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_4g545y_a");
     editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefNode_4g545y_a0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_4g545y_b0(editorContext, node));
+    if (renderingCondition_4g545y_a1a(node, editorContext)) {
+      editorCell.addEditorCell(this.createCollection_4g545y_b0(editorContext, node));
+    }
     return editorCell;
   }
 
@@ -48,6 +52,9 @@ public class Head_Editor extends DefaultNodeEditor {
     if (editorCell.getRole() == null) {
       editorCell.setRole("name");
     }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.RT_ANCHOR_TAG, "ext_1_RTransform");
+    editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -59,8 +66,28 @@ public class Head_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_4g545y_b0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new Head_Editor.paramsListHandler_4g545y_b0(node, "params", editorContext);
+  private EditorCell createCollection_4g545y_b0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    editorCell.setCellId("Collection_4g545y_b0");
+    editorCell.addEditorCell(this.createConstant_4g545y_a1a(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_4g545y_b1a(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_4g545y_c1a(editorContext, node));
+    return editorCell;
+  }
+
+  private static boolean renderingCondition_4g545y_a1a(SNode node, EditorContext editorContext) {
+    return ListSequence.fromList(SLinkOperations.getTargets(node, "params", true)).isNotEmpty();
+  }
+
+  private EditorCell createConstant_4g545y_a1a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
+    editorCell.setCellId("Constant_4g545y_a1a");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createRefNodeList_4g545y_b1a(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new Head_Editor.paramsListHandler_4g545y_b1a(node, "params", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Horizontal(), false);
     editorCell.setCellId("refNodeList_params");
     Style style = new StyleImpl();
@@ -71,8 +98,8 @@ public class Head_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static class paramsListHandler_4g545y_b0 extends RefNodeListHandler {
-    public paramsListHandler_4g545y_b0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class paramsListHandler_4g545y_b1a extends RefNodeListHandler {
+    public paramsListHandler_4g545y_b1a(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -95,7 +122,7 @@ public class Head_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEmptyCell_internal(EditorContext editorContext, SNode node) {
-      return this.createEmpty_4g545y_a1a(editorContext, node);
+      return this.createEmpty_4g545y_a1b0(editorContext, node);
     }
 
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
@@ -124,12 +151,19 @@ public class Head_Editor extends DefaultNodeEditor {
       return editorCell;
     }
 
-    private EditorCell createEmpty_4g545y_a1a(EditorContext editorContext, SNode node) {
+    private EditorCell createEmpty_4g545y_a1b0(EditorContext editorContext, SNode node) {
       EditorCell_Empty editorCell = new EditorCell_Empty(editorContext, node);
       editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(editorCell.getSNode()));
       editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteNode(editorCell.getSNode()));
-      editorCell.setCellId("Empty_4g545y_a1a");
+      editorCell.setCellId("Empty_4g545y_a1b0");
       return editorCell;
     }
+  }
+
+  private EditorCell createConstant_4g545y_c1a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
+    editorCell.setCellId("Constant_4g545y_c1a");
+    editorCell.setDefaultText("");
+    return editorCell;
   }
 }

@@ -24,24 +24,26 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
       case 3:
         return Collections.<ConceptEditor>singletonList(new FunctionDef_Editor());
       case 4:
-        return Collections.<ConceptEditor>singletonList(new FunctionDirectivePrive_Editor());
+        return Collections.<ConceptEditor>singletonList(new FunctionDirective_Editor());
       case 5:
-        return Collections.<ConceptEditor>singletonList(new FunctionDirectiveTable_Editor());
+        return Collections.<ConceptEditor>singletonList(new FunctionFact_Editor());
       case 6:
-        return Collections.<ConceptEditor>singletonList(new Head_Editor());
+        return Collections.<ConceptEditor>singletonList(new FunctionRule_Editor());
       case 7:
-        return Collections.<ConceptEditor>singletonList(new ImportDecl_Editor());
+        return Collections.<ConceptEditor>singletonList(new Head_Editor());
       case 8:
-        return Collections.<ConceptEditor>singletonList(new ImportItem_Editor());
+        return Collections.<ConceptEditor>singletonList(new ImportDecl_Editor());
       case 9:
-        return Collections.<ConceptEditor>singletonList(new ModuleDecl_Editor());
+        return Collections.<ConceptEditor>singletonList(new ImportItem_Editor());
       case 10:
-        return Collections.<ConceptEditor>singletonList(new Operator_Editor());
+        return Collections.<ConceptEditor>singletonList(new ModuleDecl_Editor());
       case 11:
-        return Collections.<ConceptEditor>singletonList(new Root_Editor());
+        return Collections.<ConceptEditor>singletonList(new Operator_Editor());
       case 12:
-        return Collections.<ConceptEditor>singletonList(new Term_Editor());
+        return Collections.<ConceptEditor>singletonList(new Root_Editor());
       case 13:
+        return Collections.<ConceptEditor>singletonList(new Term_Editor());
+      case 14:
         return Collections.<ConceptEditor>singletonList(new VariableAnonymous_Editor());
       default:
     }
@@ -67,6 +69,6 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
 
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"Picat.structure.CommentBlock", "Picat.structure.CommentLine", "Picat.structure.EmptyLine", "Picat.structure.FunctionDef", "Picat.structure.FunctionDirectivePrive", "Picat.structure.FunctionDirectiveTable", "Picat.structure.Head", "Picat.structure.ImportDecl", "Picat.structure.ImportItem", "Picat.structure.ModuleDecl", "Picat.structure.Operator", "Picat.structure.Root", "Picat.structure.Term", "Picat.structure.VariableAnonymous"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"Picat.structure.CommentBlock", "Picat.structure.CommentLine", "Picat.structure.EmptyLine", "Picat.structure.FunctionDef", "Picat.structure.FunctionDirective", "Picat.structure.FunctionFact", "Picat.structure.FunctionRule", "Picat.structure.Head", "Picat.structure.ImportDecl", "Picat.structure.ImportItem", "Picat.structure.ModuleDecl", "Picat.structure.Operator", "Picat.structure.Root", "Picat.structure.Term", "Picat.structure.VariableAnonymous"};
   private static String[] stringSwitchCases_xbvbvu_a0a0c = new String[]{"Picat.structure.PicatConcept", "Picat.structure.Term"};
 }
