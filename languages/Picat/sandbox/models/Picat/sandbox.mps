@@ -3,7 +3,7 @@
   <persistence version="8" />
   <language namespace="a5d23ab6-9481-40f4-9b93-78ef36a15a98(Picat)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
-  <import index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="18" implicit="yes" />
+  <import index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="19" implicit="yes" />
   <root type="jhh7.Root" typeId="jhh7.1206526942737773826" id="1206526942737775763" nodeInfo="ng">
     <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.ModuleDecl" typeId="jhh7.1206526942738886115" id="7587167379825800998" nodeInfo="ng">
       <node role="name" roleId="jhh7.1206526942738898680" type="jhh7.Atom" typeId="jhh7.1206526942737937327" id="7587167379825801000" nodeInfo="ng">
@@ -105,6 +105,13 @@
         <link role="module" roleId="jhh7.5395187569911557091" targetNodeId="9074910228090548011" />
       </node>
     </node>
+    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.EmptyLine" typeId="jhh7.5395187569912052084" id="8006786149693829294" nodeInfo="ng" />
+    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.EmptyLine" typeId="jhh7.5395187569912052084" id="8006786149693829347" nodeInfo="ng" />
+    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.ModuleDecl" typeId="jhh7.1206526942738886115" id="8006786149693829456" nodeInfo="ng">
+      <node role="name" roleId="jhh7.1206526942738898680" type="jhh7.Atom" typeId="jhh7.1206526942737937327" id="8006786149693829458" nodeInfo="ng">
+        <property name="val" nameId="jhh7.1206526942739774623" value="sda" />
+      </node>
+    </node>
     <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.ImportDecl" typeId="jhh7.1206526942739003172" id="5395187569911758085" nodeInfo="ng">
       <node role="moduleImports" roleId="jhh7.1206526942739334349" type="jhh7.ImportItem" typeId="jhh7.1206526942739013896" id="5395187569911758121" nodeInfo="ng">
         <link role="module" roleId="jhh7.5395187569911557091" targetNodeId="9074910228090548011" />
@@ -124,7 +131,7 @@
     <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.FunctionDef" typeId="jhh7.1206526942739587098" id="4357727449384345751" nodeInfo="ng">
       <node role="functionRules" roleId="jhh7.1206526942739603316" type="jhh7.FunctionRule" typeId="jhh7.1206526942739603399" id="4357727449384345832" nodeInfo="ng">
         <node role="expression" roleId="jhh7.7587167379825945054" type="jhh7.Expression" typeId="jhh7.7587167379825944629" id="4357727449384345836" nodeInfo="ng" />
-        <node role="body" roleId="jhh7.7587167379825945336" type="jhh7.Body" typeId="jhh7.7587167379825945002" id="4357727449384345840" nodeInfo="ng" />
+        <node role="body" roleId="jhh7.7587167379825945336" type="jhh7.Body" typeId="jhh7.8006786149693321154" id="4357727449384345840" nodeInfo="ng" />
         <node role="head" roleId="jhh7.7587167379825969688" type="jhh7.Head" typeId="jhh7.1206526942739603441" id="4357727449384345844" nodeInfo="ng">
           <node role="name" roleId="jhh7.1206526942739603476" type="jhh7.Atom" typeId="jhh7.1206526942737937327" id="4357727449384345848" nodeInfo="ng">
             <property name="val" nameId="jhh7.1206526942739774623" value="dsd" />

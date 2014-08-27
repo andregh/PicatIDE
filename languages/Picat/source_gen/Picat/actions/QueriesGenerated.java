@@ -84,7 +84,7 @@ public class QueriesGenerated {
     List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
     ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(SConceptOperations.findConceptDeclaration("Picat.structure.Condition"), _context.getSourceNode()) {
       public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
-        return SNodeFactoryOperations.setNewChild(_context.getSourceNode(), "condition", "Picat.structure.Condition");
+        return SNodeFactoryOperations.setNewChild(_context.getSourceNode(), "condition", "Picat.structure.DisjunctiveGoal");
       }
 
       public String getMatchingText(String pattern) {

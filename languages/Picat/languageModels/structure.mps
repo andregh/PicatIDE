@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="18">
+<model modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="19">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="18" implicit="yes" />
+  <import index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="19" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1206526942737339969" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="CommentLine" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1206526942737782584" resolveInfo="PicatConcept" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1206526942737691260" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="text" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8006786149693701728" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1206526942737773826" nodeInfo="ig">
@@ -33,21 +36,18 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="concepts" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1206526942737782584" resolveInfo="PicatConcept" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
     </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1206526942737782584" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="PicatConcept" />
-    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
-    <property name="final" nameId="tpce.4628067390765956807" value="false" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1206526942737791489" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="CommentBlock" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1206526942737782584" resolveInfo="PicatConcept" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1206526942737791549" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="text" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8006786149693695985" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1206526942737937327" nodeInfo="ig">
@@ -70,21 +70,27 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1206526942738163212" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Operator" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1206526942737782584" resolveInfo="PicatConcept" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1206526942738163278" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="val" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8006786149693708264" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1206526942738886115" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ModuleDecl" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="module" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1206526942737782584" resolveInfo="PicatConcept" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1206526942738898680" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="name" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="1206526942737937327" resolveInfo="Atom" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8006786149693708246" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5395187569911935756" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
@@ -93,17 +99,20 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1206526942739003172" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ImportDecl" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="import" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1206526942737782584" resolveInfo="PicatConcept" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1206526942739334349" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="moduleImports" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="1206526942739013896" resolveInfo="ImportItem" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8006786149693707280" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1206526942739013896" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ImportItem" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1206526942737782584" resolveInfo="PicatConcept" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1206526942739014012" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="function" />
@@ -119,16 +128,22 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="1206526942738886115" resolveInfo="ModuleDecl" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8006786149693707295" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1206526942739586096" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="FunctionDirective" />
     <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
     <property name="final" nameId="tpce.4628067390765956807" value="false" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1206526942737782584" resolveInfo="PicatConcept" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8006786149693701740" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1206526942739587098" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="FunctionDef" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1206526942737782584" resolveInfo="PicatConcept" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1206526942739587127" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="functionDirective" />
@@ -141,17 +156,23 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="1206526942739603285" resolveInfo="FunctionRuleOrFact" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8006786149693701738" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1206526942739603285" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="FunctionRuleOrFact" />
     <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
     <property name="final" nameId="tpce.4628067390765956807" value="false" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1206526942737782584" resolveInfo="PicatConcept" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7587167379825969688" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="head" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="1206526942739603441" resolveInfo="Head" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8006786149693705981" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1206526942739603358" nodeInfo="ig">
@@ -177,18 +198,18 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="condition" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="7587167379825944958" resolveInfo="Condition" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="8006786149693571285" resolveInfo="Condition" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7587167379825945336" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="body" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="7587167379825945002" resolveInfo="Body" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="8006786149693321154" resolveInfo="Body" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1206526942739603441" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Head" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1206526942737782584" resolveInfo="PicatConcept" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1206526942739603476" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="name" />
@@ -201,10 +222,13 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="1206526942739603631" resolveInfo="Term" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8006786149693705983" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1206526942739603631" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Term" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1206526942737782584" resolveInfo="PicatConcept" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1206526942739774623" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="val" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
@@ -212,10 +236,16 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5395187569911867302" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8006786149693709379" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5395187569912052084" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="EmptyLine" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1206526942737782584" resolveInfo="PicatConcept" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8006786149693701734" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7587167379825805979" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="FunctionPrivate" />
@@ -229,41 +259,59 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7587167379825944629" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Expression" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1206526942737782584" resolveInfo="PicatConcept" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7587167379825944958" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="Condition" />
-    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
-    <property name="final" nameId="tpce.4628067390765956807" value="false" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="7587167379825971947" resolveInfo="Goal" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7587167379825945002" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="Body" />
-    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
-    <property name="final" nameId="tpce.4628067390765956807" value="false" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1206526942737782584" resolveInfo="PicatConcept" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8006786149693701736" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7587167379825971250" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Argument" />
     <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
     <property name="final" nameId="tpce.4628067390765956807" value="false" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1206526942737782584" resolveInfo="PicatConcept" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8006786149693597632" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7587167379825971525" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="DisjunctiveGoal" />
     <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
     <property name="final" nameId="tpce.4628067390765956807" value="false" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1206526942737782584" resolveInfo="PicatConcept" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8006786149693571454" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571389" resolveInfo="Goal" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7587167379825971895" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="NegativeGoal" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1206526942737782584" resolveInfo="PicatConcept" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8006786149693708260" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
+    </node>
   </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7587167379825971947" nodeInfo="ig">
+  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="8006786149693321154" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="Body" />
+    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8006786149693695983" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
+    </node>
+  </root>
+  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="8006786149693571285" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="Condition" />
+    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8006786149693701732" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
+    </node>
+  </root>
+  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="8006786149693571389" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Goal" />
-    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
-    <property name="final" nameId="tpce.4628067390765956807" value="false" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1206526942737782584" resolveInfo="PicatConcept" />
+    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8006786149693571390" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571285" resolveInfo="Condition" />
+    </node>
+    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8006786149693571395" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693321154" resolveInfo="Body" />
+    </node>
+  </root>
+  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="8006786149693571667" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="PicatConcept" />
   </root>
 </model>
 
