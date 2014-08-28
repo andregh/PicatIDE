@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-ed03u3qem28ow8ppzbhxaywsztys0fv">
+<dependencies version="2" modelHash="-ad9uoenpbhs15uw81yv8zmn9f8y8992">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="5sdbpqxziyuazpb9j1p4zdk6bnvbn49" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="-5mgxduek28h3ywdzzsk4capaz4hgjm0" />
   <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="303xz1b2lyseld0axia86q3lpvucmq6" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
-  <common hash="-7bhl2a72tm9s6mv7y0vx5oody1toodn" dependsOnNodes="true">
+  <common hash="31s66jdla809d9x5wv456w0atfq698j" dependsOnNodes="true">
     <dep root="1206526942737339969" />
     <dep root="1206526942737773826" />
     <dep root="1206526942737791489" />
@@ -24,6 +24,16 @@
     <dep root="1206526942739603399" />
     <dep root="1206526942739603441" />
     <dep root="1206526942739603631" />
+    <dep root="2850784838428759297" />
+    <dep root="2850784838429293348" />
+    <dep root="2850784838429293536" />
+    <dep root="2850784838429326253" />
+    <dep root="2850784838429326919" />
+    <dep root="2850784838429327010" />
+    <dep root="2850784838429360760" />
+    <dep root="2850784838429361038" />
+    <dep root="2850784838429361135" />
+    <dep root="2850784838429361331" />
     <dep root="5395187569912052084" />
     <dep root="7587167379825805979" />
     <dep root="7587167379825828005" />
@@ -65,11 +75,21 @@
   <source id="7587167379825828005" name="FunctionTable" hash="-2w3dtx6eh4egn6jldrw0j2u0b3rs5we" />
   <source id="7587167379825944629" name="Expression" hash="-1l5wo31i1raijxm21ulylpg0axhx63w" />
   <source id="7587167379825971250" name="Argument" hash="-cfj46hehptx3hdqctx5qc1w3g52b8rs" />
-  <source id="7587167379825971525" name="DisjunctiveGoal" hash="-10nl2mqhulnns8cryk8qc2vwtpmvelg" />
-  <source id="7587167379825971895" name="NegativeGoal" hash="-2uob5r1p60fi2icdgh0dogsnf5beysn" />
+  <source id="7587167379825971525" name="DisjunctiveGoal" hash="ck455fvj4vsa89y6yo735n64lt8gyh2" />
+  <source id="7587167379825971895" name="NegativeGoal" hash="-5v4tzeithytur1wlw2vg3jg2izxtxwx" />
   <source id="8006786149693321154" name="Body" hash="-9rhqdan599w33cqgejox9rvtmakkui6" />
   <source id="8006786149693571285" name="Condition" hash="-5szu47b4m3at3oshsmic0fqjl3r8vg6" />
   <source id="8006786149693571389" name="Goal" hash="8ior8hx99xdg857qo3haupqk3sn1z0o" />
-  <source id="8006786149693571667" name="PicatConcept" hash="2hrzjwisuna2yxgtdoi7wr584lgdcwb" />
+  <source id="8006786149693571667" name="PicatConcept" hash="2lqrynw2alfti6zh0ga9rwwvo1e7ska" />
+  <source id="2850784838428759297" name="ConjunctiveGoal" hash="7z8bn02rcliaubg23ziww9f90a0hca2" />
+  <source id="2850784838429293348" name="NegativeGoalOrEquivConstrain" hash="-c9hpy56j2iiaaz50kyb9mdyfe9yu1tj" />
+  <source id="2850784838429293536" name="EquivConstraint" hash="-e246blvhiigyrlcvk4s12g73tbq04hz" />
+  <source id="2850784838429326253" name="ImplConstraint" hash="1k2muglpeytdhphqvca2jftdfvz33xz" />
+  <source id="2850784838429326919" name="XorConstraint" hash="8av1px7iaseyf3fkbwo9oluke2mmpkd" />
+  <source id="2850784838429327010" name="OrConstraint" hash="-ache0nrt123mo15p02chl2aax7r9i3b" />
+  <source id="2850784838429360760" name="AndConstraint" hash="26s5ygzae0qxj92muqr770mmggb3150" />
+  <source id="2850784838429361038" name="NotConstraint" hash="2bnvftvdjnf1nq196ffqkcvl5qkv3o7" />
+  <source id="2850784838429361135" name="EnclosedGoal" hash="-8zngtje7h7mmfe3zur827i8ku38hial" />
+  <source id="2850784838429361331" name="NotConstraint_Or_EnclosedGoal" hash="-7toxxze2dbw01v5vpqmymr7gdvno6f" />
 </dependencies>
 

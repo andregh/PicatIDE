@@ -120,5 +120,17 @@
     </dependencies>
     <rename id="jhh7.8006786149693321154" type="CONCEPT" from="Bodey" to="Body" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="19" />
+    </dependencies>
+    <rename id="jhh7.2850784838429293095" type="CHILD" from="negativeGoals" to="negativeGoalsOrEquivConstr" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="20" />
+    </dependencies>
+    <rename id="jhh7.2850784838429326919" type="CONCEPT" from="XorConstr" to="XorConstraint" />
+  </StructureModification>
 </history>
 

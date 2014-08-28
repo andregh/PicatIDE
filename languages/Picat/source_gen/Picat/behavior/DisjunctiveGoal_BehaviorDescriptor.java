@@ -4,7 +4,7 @@ package Picat.behavior;
 
 import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 
-public abstract class DisjunctiveGoal_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements Goal_BehaviorDescriptor {
+public class DisjunctiveGoal_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements Goal_BehaviorDescriptor {
   public DisjunctiveGoal_BehaviorDescriptor() {
   }
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="19">
+<model modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="21">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="19" implicit="yes" />
+  <import index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="21" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1206526942737339969" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="CommentLine" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
@@ -275,18 +275,30 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7587167379825971525" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="DisjunctiveGoal" />
-    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
+    <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
     <property name="final" nameId="tpce.4628067390765956807" value="false" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8006786149693571454" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571389" resolveInfo="Goal" />
     </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2850784838428822145" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="conjunctiveGoals" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2850784838428759297" resolveInfo="ConjunctiveGoal" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7587167379825971895" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="NegativeGoal" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8006786149693708260" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2850784838429293429" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2850784838429293348" resolveInfo="NegativeGoalOrEquivConstrain" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2850784838429293789" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="equivConstr" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2850784838429293536" resolveInfo="EquivConstraint" />
     </node>
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="8006786149693321154" nodeInfo="ig">
@@ -312,6 +324,110 @@
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="8006786149693571667" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="PicatConcept" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2850784838428759297" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="ConjunctiveGoal" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2850784838428812004" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2850784838429293095" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="negativeGoalsOrEquivConstr" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2850784838429293348" resolveInfo="NegativeGoalOrEquivConstrain" />
+    </node>
+  </root>
+  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="2850784838429293348" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="NegativeGoalOrEquivConstrain" />
+    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2850784838429293349" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2850784838429293536" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="EquivConstraint" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2850784838429293537" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2850784838429293348" resolveInfo="NegativeGoalOrEquivConstrain" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2850784838429326390" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="implConstrs" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2850784838429326253" resolveInfo="ImplConstraint" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2850784838429326253" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="ImplConstraint" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2850784838429326305" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2850784838429361685" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="orConstrs" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2850784838429327010" resolveInfo="OrConstraint" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2850784838429326919" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="XorConstraint" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2850784838429326920" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2850784838429362801" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="andConstrs" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2850784838429360760" resolveInfo="AndConstraint" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2850784838429327010" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="OrConstraint" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2850784838429360944" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2850784838429362065" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="xorConstrs" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2850784838429326919" resolveInfo="XorConstraint" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2850784838429360760" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="AndConstraint" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2850784838429360851" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2850784838429363090" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="notConstrs" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2850784838429361331" resolveInfo="NotConstraint_Or_EnclosedGoal" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2850784838429361038" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="NotConstraint" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2850784838429361533" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2850784838429361331" resolveInfo="NotConstraint_Or_EnclosedGoal" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2850784838429361135" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="EnclosedGoal" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2850784838429361432" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2850784838429361331" resolveInfo="NotConstraint_Or_EnclosedGoal" />
+    </node>
+  </root>
+  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="2850784838429361331" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="NotConstraint_Or_EnclosedGoal" />
+    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2850784838429361332" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8006786149693571667" resolveInfo="PicatConcept" />
+    </node>
   </root>
 </model>
 

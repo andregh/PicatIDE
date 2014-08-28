@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
+  <dependency className="Picat.behavior.AndConstraint_BehaviorDescriptor" file="AndConstraint_BehaviorDescriptor.java">
+    <classNode dependClassName="Picat.behavior.PicatConcept_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="Picat.behavior.Argument_BehaviorDescriptor" file="Argument_BehaviorDescriptor.java">
     <classNode dependClassName="Picat.behavior.PicatConcept_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
@@ -15,10 +23,15 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="Picat.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
+    <classNode dependClassName="Picat.behavior.AndConstraint_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.Atom_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.CommentBlock_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.CommentLine_BehaviorDescriptor" />
+    <classNode dependClassName="Picat.behavior.ConjunctiveGoal_BehaviorDescriptor" />
+    <classNode dependClassName="Picat.behavior.DisjunctiveGoal_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.EmptyLine_BehaviorDescriptor" />
+    <classNode dependClassName="Picat.behavior.EnclosedGoal_BehaviorDescriptor" />
+    <classNode dependClassName="Picat.behavior.EquivConstraint_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.Expression_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.FunctionDef_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.FunctionFact_BehaviorDescriptor" />
@@ -26,15 +39,19 @@
     <classNode dependClassName="Picat.behavior.FunctionRule_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.FunctionTable_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.Head_BehaviorDescriptor" />
+    <classNode dependClassName="Picat.behavior.ImplConstraint_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.ImportDecl_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.ImportItem_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.ModuleDecl_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.NegativeGoal_BehaviorDescriptor" />
+    <classNode dependClassName="Picat.behavior.NotConstraint_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.Operator_BehaviorDescriptor" />
+    <classNode dependClassName="Picat.behavior.OrConstraint_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.Root_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.Term_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.VariableAnonymous_BehaviorDescriptor" />
     <classNode dependClassName="Picat.behavior.VariableNamed_BehaviorDescriptor" />
+    <classNode dependClassName="Picat.behavior.XorConstraint_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Arrays" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
@@ -65,6 +82,14 @@
     <classNode dependClassName="Picat.behavior.PicatConcept_BehaviorDescriptor" />
     <classNode extendsClassName="java.lang.Cloneable" />
   </dependency>
+  <dependency className="Picat.behavior.ConjunctiveGoal_BehaviorDescriptor" file="ConjunctiveGoal_BehaviorDescriptor.java">
+    <classNode dependClassName="Picat.behavior.PicatConcept_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="Picat.behavior.DisjunctiveGoal_BehaviorDescriptor" file="DisjunctiveGoal_BehaviorDescriptor.java">
     <classNode dependClassName="Picat.behavior.Goal_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
@@ -75,6 +100,22 @@
   </dependency>
   <dependency className="Picat.behavior.EmptyLine_BehaviorDescriptor" file="EmptyLine_BehaviorDescriptor.java">
     <classNode dependClassName="Picat.behavior.PicatConcept_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="Picat.behavior.EnclosedGoal_BehaviorDescriptor" file="EnclosedGoal_BehaviorDescriptor.java">
+    <classNode dependClassName="Picat.behavior.NotConstraint_Or_EnclosedGoal_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="Picat.behavior.EquivConstraint_BehaviorDescriptor" file="EquivConstraint_BehaviorDescriptor.java">
+    <classNode dependClassName="Picat.behavior.NegativeGoalOrEquivConstrain_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
@@ -150,6 +191,14 @@
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="Picat.behavior.ImplConstraint_BehaviorDescriptor" file="ImplConstraint_BehaviorDescriptor.java">
+    <classNode dependClassName="Picat.behavior.PicatConcept_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="Picat.behavior.ImportDecl_BehaviorDescriptor" file="ImportDecl_BehaviorDescriptor.java">
     <classNode dependClassName="Picat.behavior.PicatConcept_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
@@ -177,7 +226,31 @@
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="Picat.behavior.NegativeGoalOrEquivConstrain_BehaviorDescriptor" file="NegativeGoalOrEquivConstrain_BehaviorDescriptor.java">
+    <classNode dependClassName="Picat.behavior.PicatConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+  </dependency>
   <dependency className="Picat.behavior.NegativeGoal_BehaviorDescriptor" file="NegativeGoal_BehaviorDescriptor.java">
+    <classNode dependClassName="Picat.behavior.NegativeGoalOrEquivConstrain_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="Picat.behavior.NotConstraint_BehaviorDescriptor" file="NotConstraint_BehaviorDescriptor.java">
+    <classNode dependClassName="Picat.behavior.NotConstraint_Or_EnclosedGoal_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="Picat.behavior.NotConstraint_Or_EnclosedGoal_BehaviorDescriptor" file="NotConstraint_Or_EnclosedGoal_BehaviorDescriptor.java">
+    <classNode dependClassName="Picat.behavior.PicatConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+  </dependency>
+  <dependency className="Picat.behavior.Operator_BehaviorDescriptor" file="Operator_BehaviorDescriptor.java">
     <classNode dependClassName="Picat.behavior.PicatConcept_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -185,7 +258,7 @@
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
-  <dependency className="Picat.behavior.Operator_BehaviorDescriptor" file="Operator_BehaviorDescriptor.java">
+  <dependency className="Picat.behavior.OrConstraint_BehaviorDescriptor" file="OrConstraint_BehaviorDescriptor.java">
     <classNode dependClassName="Picat.behavior.PicatConcept_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -227,6 +300,14 @@
     <classNode dependClassName="Picat.behavior.Term_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="Picat.behavior.XorConstraint_BehaviorDescriptor" file="XorConstraint_BehaviorDescriptor.java">
+    <classNode dependClassName="Picat.behavior.PicatConcept_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
 </dependenciesRoot>

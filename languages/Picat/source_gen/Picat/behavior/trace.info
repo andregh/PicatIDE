@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="AndConstraint_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Picat.behavior.AndConstraint_BehaviorDescriptor" />
   <unitInfo fileName="Argument_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Picat.behavior.Argument_BehaviorDescriptor" />
   <unitInfo fileName="Atom_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Picat.behavior.Atom_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="62" endPosition="0" unitName="Picat.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="80" endPosition="0" unitName="Picat.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="Body_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="Picat.behavior.Body_BehaviorDescriptor" />
   <unitInfo fileName="CommentBlock_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Picat.behavior.CommentBlock_BehaviorDescriptor" />
   <unitInfo fileName="CommentLine_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Picat.behavior.CommentLine_BehaviorDescriptor" />
   <unitInfo fileName="Condition_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="Picat.behavior.Condition_BehaviorDescriptor" />
+  <unitInfo fileName="ConjunctiveGoal_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Picat.behavior.ConjunctiveGoal_BehaviorDescriptor" />
   <unitInfo fileName="DisjunctiveGoal_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Picat.behavior.DisjunctiveGoal_BehaviorDescriptor" />
   <unitInfo fileName="EmptyLine_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Picat.behavior.EmptyLine_BehaviorDescriptor" />
+  <unitInfo fileName="EnclosedGoal_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Picat.behavior.EnclosedGoal_BehaviorDescriptor" />
+  <unitInfo fileName="EquivConstraint_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Picat.behavior.EquivConstraint_BehaviorDescriptor" />
   <unitInfo fileName="Expression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Picat.behavior.Expression_BehaviorDescriptor" />
   <unitInfo fileName="FunctionDef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Picat.behavior.FunctionDef_BehaviorDescriptor" />
   <unitInfo fileName="FunctionDirective_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Picat.behavior.FunctionDirective_BehaviorDescriptor" />
@@ -19,16 +23,22 @@
   <unitInfo fileName="FunctionTable_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Picat.behavior.FunctionTable_BehaviorDescriptor" />
   <unitInfo fileName="Goal_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="Picat.behavior.Goal_BehaviorDescriptor" />
   <unitInfo fileName="Head_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Picat.behavior.Head_BehaviorDescriptor" />
+  <unitInfo fileName="ImplConstraint_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Picat.behavior.ImplConstraint_BehaviorDescriptor" />
   <unitInfo fileName="ImportDecl_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Picat.behavior.ImportDecl_BehaviorDescriptor" />
   <unitInfo fileName="ImportItem_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Picat.behavior.ImportItem_BehaviorDescriptor" />
   <unitInfo fileName="ModuleDecl_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="Picat.behavior.ModuleDecl_BehaviorDescriptor" />
+  <unitInfo fileName="NegativeGoalOrEquivConstrain_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="Picat.behavior.NegativeGoalOrEquivConstrain_BehaviorDescriptor" />
   <unitInfo fileName="NegativeGoal_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Picat.behavior.NegativeGoal_BehaviorDescriptor" />
+  <unitInfo fileName="NotConstraint_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Picat.behavior.NotConstraint_BehaviorDescriptor" />
+  <unitInfo fileName="NotConstraint_Or_EnclosedGoal_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="Picat.behavior.NotConstraint_Or_EnclosedGoal_BehaviorDescriptor" />
   <unitInfo fileName="Operator_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Picat.behavior.Operator_BehaviorDescriptor" />
+  <unitInfo fileName="OrConstraint_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Picat.behavior.OrConstraint_BehaviorDescriptor" />
   <unitInfo fileName="PicatConcept_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="Picat.behavior.PicatConcept_BehaviorDescriptor" />
   <unitInfo fileName="Root_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Picat.behavior.Root_BehaviorDescriptor" />
   <unitInfo fileName="Term_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="Picat.behavior.Term_BehaviorDescriptor" />
   <unitInfo fileName="VariableAnonymous_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Picat.behavior.VariableAnonymous_BehaviorDescriptor" />
   <unitInfo fileName="VariableNamed_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Picat.behavior.VariableNamed_BehaviorDescriptor" />
   <unitInfo fileName="Variable_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Picat.behavior.Variable_BehaviorDescriptor" />
+  <unitInfo fileName="XorConstraint_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Picat.behavior.XorConstraint_BehaviorDescriptor" />
 </debugInfo>
 

@@ -4,7 +4,7 @@ package Picat.behavior;
 
 import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 
-public class NegativeGoal_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements PicatConcept_BehaviorDescriptor {
+public class NegativeGoal_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements NegativeGoalOrEquivConstrain_BehaviorDescriptor {
   public NegativeGoal_BehaviorDescriptor() {
   }
 
