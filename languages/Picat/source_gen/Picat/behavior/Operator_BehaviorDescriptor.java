@@ -4,7 +4,7 @@ package Picat.behavior;
 
 import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 
-public class Operator_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements PicatConcept_BehaviorDescriptor {
+public abstract class Operator_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements PicatConcept_BehaviorDescriptor {
   public Operator_BehaviorDescriptor() {
   }
 

@@ -2,39 +2,27 @@
 <debugInfo>
   <unitInfo fileName="QueriesGenerated.java" startLine="25" startPosition="49" endLine="45" endPosition="5" unitName="Picat.actions.QueriesGenerated$1" />
   <unitInfo fileName="QueriesGenerated.java" startLine="55" startPosition="49" endLine="75" endPosition="5" unitName="Picat.actions.QueriesGenerated$2" />
-  <unitInfo fileName="QueriesGenerated.java" startLine="85" startPosition="49" endLine="105" endPosition="5" unitName="Picat.actions.QueriesGenerated$3" />
-  <unitInfo fileName="QueriesGenerated.java" startLine="22" startPosition="0" endLine="113" endPosition="0" unitName="Picat.actions.QueriesGenerated" />
-  <root nodeRef="r:f5bb848f-da86-4b9c-ba18-1b76bda524ab(Picat.actions)/5395187569910921479">
-    <nodeInfo nodeId="5395187569911048170" fileName="QueriesGenerated.java" startLine="26" startPosition="94" endLine="27" endPosition="112" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5395187569910922134" fileName="QueriesGenerated.java" startLine="49" startPosition="202" endLine="50" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5395187569910921483" fileName="QueriesGenerated.java" startLine="49" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="sideTransformHintSubstituteActionsBuilder_Precondition_ImportItem_5395187569910921483#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/SideTransformPreconditionContext;)Z" />
-    <scopeInfo nodeId="5395187569911048034" fileName="QueriesGenerated.java" startLine="26" startPosition="94" endLine="27" endPosition="112" />
-    <scopeInfo nodeId="5395187569910921484" fileName="QueriesGenerated.java" startLine="49" startPosition="202" endLine="50" endPosition="91" />
-    <scopeInfo nodeId="5395187569910921483" fileName="QueriesGenerated.java" startLine="49" startPosition="0" endLine="52" endPosition="0">
-      <varInfo nodeId="5395187569910921483" varName="_context" />
-      <varInfo nodeId="5395187569910921483" varName="operationContext" />
+  <unitInfo fileName="QueriesGenerated.java" startLine="22" startPosition="0" endLine="83" endPosition="0" unitName="Picat.actions.QueriesGenerated" />
+  <root nodeRef="r:f5bb848f-da86-4b9c-ba18-1b76bda524ab(Picat.actions)/7366177745619262122">
+    <nodeInfo nodeId="7366177745619319323" fileName="QueriesGenerated.java" startLine="26" startPosition="94" endLine="27" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7366177745619284632" fileName="QueriesGenerated.java" startLine="49" startPosition="210" endLine="50" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7366177745619283981" fileName="QueriesGenerated.java" startLine="49" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="sideTransformHintSubstituteActionsBuilder_Precondition_FunctionDefinition_7366177745619283981#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/SideTransformPreconditionContext;)Z" />
+    <scopeInfo nodeId="7366177745619318468" fileName="QueriesGenerated.java" startLine="26" startPosition="94" endLine="27" endPosition="110" />
+    <scopeInfo nodeId="7366177745619283982" fileName="QueriesGenerated.java" startLine="49" startPosition="210" endLine="50" endPosition="113" />
+    <scopeInfo nodeId="7366177745619283981" fileName="QueriesGenerated.java" startLine="49" startPosition="0" endLine="52" endPosition="0">
+      <varInfo nodeId="7366177745619283981" varName="_context" />
+      <varInfo nodeId="7366177745619283981" varName="operationContext" />
     </scopeInfo>
   </root>
-  <root nodeRef="r:f5bb848f-da86-4b9c-ba18-1b76bda524ab(Picat.actions)/7587167379825876423">
-    <nodeInfo nodeId="7587167379825899156" fileName="QueriesGenerated.java" startLine="56" startPosition="94" endLine="57" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7587167379825877127" fileName="QueriesGenerated.java" startLine="79" startPosition="196" endLine="80" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7587167379825876476" fileName="QueriesGenerated.java" startLine="79" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="sideTransformHintSubstituteActionsBuilder_Precondition_Head_7587167379825876476#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/SideTransformPreconditionContext;)Z" />
-    <scopeInfo nodeId="7587167379825898007" fileName="QueriesGenerated.java" startLine="56" startPosition="94" endLine="57" endPosition="110" />
-    <scopeInfo nodeId="7587167379825876477" fileName="QueriesGenerated.java" startLine="79" startPosition="196" endLine="80" endPosition="113" />
-    <scopeInfo nodeId="7587167379825876476" fileName="QueriesGenerated.java" startLine="79" startPosition="0" endLine="82" endPosition="0">
-      <varInfo nodeId="7587167379825876476" varName="_context" />
-      <varInfo nodeId="7587167379825876476" varName="operationContext" />
-    </scopeInfo>
-  </root>
-  <root nodeRef="r:f5bb848f-da86-4b9c-ba18-1b76bda524ab(Picat.actions)/7587167379825953326">
-    <nodeInfo nodeId="7587167379825962195" fileName="QueriesGenerated.java" startLine="86" startPosition="94" endLine="87" endPosition="124" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7587167379825954278" fileName="QueriesGenerated.java" startLine="109" startPosition="204" endLine="110" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7587167379825953467" fileName="QueriesGenerated.java" startLine="109" startPosition="0" endLine="112" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="sideTransformHintSubstituteActionsBuilder_Precondition_FunctionRule_7587167379825953467#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/SideTransformPreconditionContext;)Z" />
-    <scopeInfo nodeId="7587167379825961999" fileName="QueriesGenerated.java" startLine="86" startPosition="94" endLine="87" endPosition="124" />
-    <scopeInfo nodeId="7587167379825953468" fileName="QueriesGenerated.java" startLine="109" startPosition="204" endLine="110" endPosition="92" />
-    <scopeInfo nodeId="7587167379825953467" fileName="QueriesGenerated.java" startLine="109" startPosition="0" endLine="112" endPosition="0">
-      <varInfo nodeId="7587167379825953467" varName="_context" />
-      <varInfo nodeId="7587167379825953467" varName="operationContext" />
+  <root nodeRef="r:f5bb848f-da86-4b9c-ba18-1b76bda524ab(Picat.actions)/7366177745619643334">
+    <nodeInfo nodeId="7366177745619661182" fileName="QueriesGenerated.java" startLine="56" startPosition="94" endLine="57" endPosition="125" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7366177745619644010" fileName="QueriesGenerated.java" startLine="79" startPosition="210" endLine="80" endPosition="118" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7366177745619643359" fileName="QueriesGenerated.java" startLine="79" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="sideTransformHintSubstituteActionsBuilder_Precondition_FunctionDefinition_7366177745619643359#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/SideTransformPreconditionContext;)Z" />
+    <scopeInfo nodeId="7366177745619661061" fileName="QueriesGenerated.java" startLine="56" startPosition="94" endLine="57" endPosition="125" />
+    <scopeInfo nodeId="7366177745619643360" fileName="QueriesGenerated.java" startLine="79" startPosition="210" endLine="80" endPosition="118" />
+    <scopeInfo nodeId="7366177745619643359" fileName="QueriesGenerated.java" startLine="79" startPosition="0" endLine="82" endPosition="0">
+      <varInfo nodeId="7366177745619643359" varName="_context" />
+      <varInfo nodeId="7366177745619643359" varName="operationContext" />
     </scopeInfo>
   </root>
 </debugInfo>

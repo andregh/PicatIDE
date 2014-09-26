@@ -3,123 +3,34 @@
   <persistence version="8" />
   <language namespace="a5d23ab6-9481-40f4-9b93-78ef36a15a98(Picat)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
-  <import index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="21" implicit="yes" />
-  <root type="jhh7.Root" typeId="jhh7.1206526942737773826" id="1206526942737775763" nodeInfo="ng">
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.ModuleDecl" typeId="jhh7.1206526942738886115" id="7587167379825800998" nodeInfo="ng">
-      <node role="name" roleId="jhh7.1206526942738898680" type="jhh7.Atom" typeId="jhh7.1206526942737937327" id="7587167379825801000" nodeInfo="ng">
-        <property name="val" nameId="jhh7.1206526942739774623" value="dsasd" />
+  <import index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="25" implicit="yes" />
+  <root type="jhh7.Root" typeId="jhh7.1206526942737773826" id="6230166728921498899" nodeInfo="ng">
+    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.CommentLine" typeId="jhh7.1206526942737339969" id="7366177745618861998" nodeInfo="ng">
+      <property name="text" nameId="jhh7.1206526942737691260" value="fdsfdsf" />
+    </node>
+    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.CommentLine" typeId="jhh7.1206526942737339969" id="7366177745619406814" nodeInfo="ng">
+      <property name="text" nameId="jhh7.1206526942737691260" value="dfgdfgdf" />
+    </node>
+    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.EmptyLine" typeId="jhh7.5395187569912052084" id="7366177745619534410" nodeInfo="ng" />
+    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.FunctionDefinition" typeId="jhh7.1206526942739603441" id="7366177745619554572" nodeInfo="ng">
+      <property name="name" nameId="jhh7.6230166728921136751" value="sadfdas" />
+      <node role="params" roleId="jhh7.7366177745619262214" type="jhh7.Term" typeId="jhh7.7366177745619262216" id="7366177745619554631" nodeInfo="ng">
+        <property name="val" nameId="jhh7.7366177745619262219" value="sad" />
       </node>
+      <node role="directives" roleId="jhh7.7366177745619530183" type="jhh7.FunctionPrivate" typeId="jhh7.7587167379825805979" id="7366177745619554633" nodeInfo="ng" />
+      <node role="directives" roleId="jhh7.7366177745619530183" type="jhh7.FunctionTable" typeId="jhh7.7587167379825828005" id="7366177745619554638" nodeInfo="ng" />
+      <node role="expressions" roleId="jhh7.7366177745619622821" type="jhh7.LineExpression" typeId="jhh7.7366177745619673582" id="7366177745619871829" nodeInfo="ng" />
+      <node role="expressions" roleId="jhh7.7366177745619622821" type="jhh7.LineExpression" typeId="jhh7.7366177745619673582" id="7366177745619871824" nodeInfo="ng" />
+      <node role="expressions" roleId="jhh7.7366177745619622821" type="jhh7.LineExpression" typeId="jhh7.7366177745619673582" id="7366177745619896735" nodeInfo="ng" />
+      <node role="expressions" roleId="jhh7.7366177745619622821" type="jhh7.LineExpression" typeId="jhh7.7366177745619673582" id="7366177745619820692" nodeInfo="ng" />
     </node>
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.ImportDecl" typeId="jhh7.1206526942739003172" id="7587167379825801078" nodeInfo="ng">
-      <node role="moduleImports" roleId="jhh7.1206526942739334349" type="jhh7.ImportItem" typeId="jhh7.1206526942739013896" id="7587167379825801118" nodeInfo="ng">
-        <property name="arity" nameId="jhh7.1206526942739144475" value="2" />
-        <link role="module" roleId="jhh7.5395187569911557091" targetNodeId="9074910228090548011" />
-        <node role="function" roleId="jhh7.1206526942739014012" type="jhh7.Atom" typeId="jhh7.1206526942737937327" id="7587167379825801120" nodeInfo="ng">
-          <property name="val" nameId="jhh7.1206526942739774623" value="sda" />
-        </node>
+    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.FunctionDefinition" typeId="jhh7.1206526942739603441" id="7366177745619896754" nodeInfo="ng">
+      <property name="name" nameId="jhh7.6230166728921136751" value="asdas" />
+      <node role="params" roleId="jhh7.7366177745619262214" type="jhh7.Term" typeId="jhh7.7366177745619262216" id="7366177745619896768" nodeInfo="ng">
+        <property name="val" nameId="jhh7.7366177745619262219" value="sd" />
       </node>
-    </node>
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.CommentLine" typeId="jhh7.1206526942737339969" id="1206526942737775819" nodeInfo="ng">
-      <property name="text" nameId="jhh7.1206526942737691260" value="fdsfsdfsdf." />
-    </node>
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.CommentLine" typeId="jhh7.1206526942737339969" id="1206526942737775824" nodeInfo="ng">
-      <property name="text" nameId="jhh7.1206526942737691260" value="erwerwerwer" />
-    </node>
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.CommentLine" typeId="jhh7.1206526942737339969" id="1206526942737788519" nodeInfo="ng">
-      <property name="text" nameId="jhh7.1206526942737691260" value="dfsdfdfs" />
-    </node>
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.CommentLine" typeId="jhh7.1206526942737339969" id="1206526942737791455" nodeInfo="ng">
-      <property name="text" nameId="jhh7.1206526942737691260" value="4534" />
-    </node>
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.CommentBlock" typeId="jhh7.1206526942737791489" id="1206526942737795464" nodeInfo="ng">
-      <property name="text" nameId="jhh7.1206526942737791549" value="dfsdfsdassadsd*trty" />
-    </node>
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.CommentLine" typeId="jhh7.1206526942737339969" id="1206526942737937284" nodeInfo="ng">
-      <property name="text" nameId="jhh7.1206526942737691260" value="dfdsf" />
-    </node>
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.CommentLine" typeId="jhh7.1206526942737339969" id="1206526942737937300" nodeInfo="ng">
-      <property name="text" nameId="jhh7.1206526942737691260" value="sdsa" />
-    </node>
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.VariableAnonymous" typeId="jhh7.1206526942738083589" id="1206526942739809713" nodeInfo="ng" />
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.Atom" typeId="jhh7.1206526942737937327" id="1206526942739852579" nodeInfo="ng">
-      <property name="val" nameId="jhh7.1206526942739774623" value="sdas" />
-    </node>
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.VariableNamed" typeId="jhh7.1206526942738083680" id="5395187569910798021" nodeInfo="ng">
-      <property name="val" nameId="jhh7.1206526942739774623" value="Svariable" />
-    </node>
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.Head" typeId="jhh7.1206526942739603441" id="1206526942739852992" nodeInfo="ng">
-      <node role="params" roleId="jhh7.1206526942739603548" type="jhh7.Atom" typeId="jhh7.1206526942737937327" id="9074910228090568478" nodeInfo="ng">
-        <property name="val" nameId="jhh7.1206526942739774623" value="asd" />
-      </node>
-      <node role="params" roleId="jhh7.1206526942739603548" type="jhh7.Term" typeId="jhh7.1206526942739603631" id="9074910228090568481" nodeInfo="ng">
-        <property name="val" nameId="jhh7.1206526942739774623" value="asddf" />
-      </node>
-      <node role="name" roleId="jhh7.1206526942739603476" type="jhh7.Atom" typeId="jhh7.1206526942737937327" id="1206526942739853028" nodeInfo="ng">
-        <property name="val" nameId="jhh7.1206526942739774623" value="sfds" />
-      </node>
-    </node>
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.ModuleDecl" typeId="jhh7.1206526942738886115" id="9074910228090548011" nodeInfo="ng">
-      <node role="name" roleId="jhh7.1206526942738898680" type="jhh7.Atom" typeId="jhh7.1206526942737937327" id="9074910228090548013" nodeInfo="ng">
-        <property name="val" nameId="jhh7.1206526942739774623" value="assd" />
-      </node>
-    </node>
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.ImportDecl" typeId="jhh7.1206526942739003172" id="5395187569910818405" nodeInfo="ng">
-      <node role="moduleImports" roleId="jhh7.1206526942739334349" type="jhh7.ImportItem" typeId="jhh7.1206526942739013896" id="5395187569910818426" nodeInfo="ng">
-        <property name="arity" nameId="jhh7.1206526942739144475" value="23" />
-        <link role="module" roleId="jhh7.5395187569911557091" targetNodeId="9074910228090548011" />
-        <node role="function" roleId="jhh7.1206526942739014012" type="jhh7.Atom" typeId="jhh7.1206526942737937327" id="5395187569910818428" nodeInfo="ng">
-          <property name="val" nameId="jhh7.1206526942739774623" value="dfsd" />
-        </node>
-      </node>
-    </node>
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.ImportDecl" typeId="jhh7.1206526942739003172" id="5395187569911084947" nodeInfo="ng">
-      <node role="moduleImports" roleId="jhh7.1206526942739334349" type="jhh7.ImportItem" typeId="jhh7.1206526942739013896" id="5395187569911084971" nodeInfo="ng">
-        <link role="module" roleId="jhh7.5395187569911557091" targetNodeId="9074910228090548011" />
-      </node>
-    </node>
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.ImportDecl" typeId="jhh7.1206526942739003172" id="5395187569911298529" nodeInfo="ng">
-      <node role="moduleImports" roleId="jhh7.1206526942739334349" type="jhh7.ImportItem" typeId="jhh7.1206526942739013896" id="5395187569911325871" nodeInfo="ng">
-        <link role="module" roleId="jhh7.5395187569911557091" targetNodeId="9074910228090548011" />
-      </node>
-    </node>
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.ImportDecl" typeId="jhh7.1206526942739003172" id="5395187569911406031" nodeInfo="ng">
-      <node role="moduleImports" roleId="jhh7.1206526942739334349" type="jhh7.ImportItem" typeId="jhh7.1206526942739013896" id="5395187569911406059" nodeInfo="ng">
-        <property name="arity" nameId="jhh7.1206526942739144475" value="23" />
-        <link role="module" roleId="jhh7.5395187569911557091" targetNodeId="9074910228090548011" />
-        <node role="function" roleId="jhh7.1206526942739014012" type="jhh7.Atom" typeId="jhh7.1206526942737937327" id="5395187569911554517" nodeInfo="ng">
-          <property name="val" nameId="jhh7.1206526942739774623" value="dfsd" />
-        </node>
-      </node>
-    </node>
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.ImportDecl" typeId="jhh7.1206526942739003172" id="5395187569911711714" nodeInfo="ng">
-      <node role="moduleImports" roleId="jhh7.1206526942739334349" type="jhh7.ImportItem" typeId="jhh7.1206526942739013896" id="5395187569911711743" nodeInfo="ng">
-        <property name="arity" nameId="jhh7.1206526942739144475" value="3" />
-        <link role="module" roleId="jhh7.5395187569911557091" targetNodeId="9074910228090548011" />
-        <node role="function" roleId="jhh7.1206526942739014012" type="jhh7.Atom" typeId="jhh7.1206526942737937327" id="5395187569911711745" nodeInfo="ng">
-          <property name="val" nameId="jhh7.1206526942739774623" value="sd" />
-        </node>
-      </node>
-    </node>
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.ImportDecl" typeId="jhh7.1206526942739003172" id="5395187569911711778" nodeInfo="ng">
-      <node role="moduleImports" roleId="jhh7.1206526942739334349" type="jhh7.ImportItem" typeId="jhh7.1206526942739013896" id="5395187569911711810" nodeInfo="ng">
-        <link role="module" roleId="jhh7.5395187569911557091" targetNodeId="9074910228090548011" />
-      </node>
-    </node>
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.EmptyLine" typeId="jhh7.5395187569912052084" id="8006786149693829294" nodeInfo="ng" />
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.EmptyLine" typeId="jhh7.5395187569912052084" id="8006786149693829347" nodeInfo="ng" />
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.ModuleDecl" typeId="jhh7.1206526942738886115" id="8006786149693829456" nodeInfo="ng">
-      <node role="name" roleId="jhh7.1206526942738898680" type="jhh7.Atom" typeId="jhh7.1206526942737937327" id="8006786149693829458" nodeInfo="ng">
-        <property name="val" nameId="jhh7.1206526942739774623" value="sda" />
-      </node>
-    </node>
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.ImportDecl" typeId="jhh7.1206526942739003172" id="5395187569911758085" nodeInfo="ng">
-      <node role="moduleImports" roleId="jhh7.1206526942739334349" type="jhh7.ImportItem" typeId="jhh7.1206526942739013896" id="5395187569911758121" nodeInfo="ng">
-        <link role="module" roleId="jhh7.5395187569911557091" targetNodeId="9074910228090548011" />
-      </node>
-    </node>
-    <node role="concepts" roleId="jhh7.1206526942737773934" type="jhh7.DisjunctiveGoal" typeId="jhh7.7587167379825971525" id="2850784838429292562" nodeInfo="ng">
-      <node role="conjunctiveGoals" roleId="jhh7.2850784838428822145" type="jhh7.ConjunctiveGoal" typeId="jhh7.2850784838428759297" id="2850784838429292564" nodeInfo="ng" />
-      <node role="conjunctiveGoals" roleId="jhh7.2850784838428822145" type="jhh7.ConjunctiveGoal" typeId="jhh7.2850784838428759297" id="2850784838429292610" nodeInfo="ng" />
+      <node role="expressions" roleId="jhh7.7366177745619622821" type="jhh7.Expression" typeId="jhh7.7366177745619611635" id="7366177745619896802" nodeInfo="ng" />
+      <node role="expressions" roleId="jhh7.7366177745619622821" type="jhh7.LineExpression" typeId="jhh7.7366177745619673582" id="7366177745619896770" nodeInfo="ng" />
     </node>
   </root>
 </model>

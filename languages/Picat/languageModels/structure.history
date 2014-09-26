@@ -132,5 +132,29 @@
     </dependencies>
     <rename id="jhh7.2850784838429326919" type="CONCEPT" from="XorConstr" to="XorConstraint" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="21" />
+    </dependencies>
+    <rename id="jhh7.1206526942739774623" type="PROPERTY" from="val" to="val3" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="22" />
+    </dependencies>
+    <rename id="jhh7.6230166728921136751" type="PROPERTY" from="a" to="name" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="23" />
+    </dependencies>
+    <rename id="jhh7.1206526942739603441" type="CONCEPT" from="Head" to="FunctionDefinition" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="jhh7" modelUID="r:0a399da6-d030-4ec1-a461-b5a57e4fe6f9(Picat.structure)" version="24" />
+    </dependencies>
+    <rename id="jhh7.7366177745619673582" type="CONCEPT" from="EmptyExpression" to="LineExpression" />
+  </StructureModification>
 </history>
 

@@ -14,87 +14,37 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
   public ConceptDescriptor getDescriptor(String conceptFqName) {
     switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0b, conceptFqName)) {
       case 0:
-        return new ConceptDescriptorBuilder("Picat.structure.AndConstraint").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.PicatConcept").children(new String[]{"notConstrs"}, new boolean[]{true}).create();
+        return new ConceptDescriptorBuilder("Picat.structure.CommentBlock").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.PicatConcept").properties("text").alias("/*", "").create();
       case 1:
-        return new ConceptDescriptorBuilder("Picat.structure.Argument").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.PicatConcept").abstract_().create();
+        return new ConceptDescriptorBuilder("Picat.structure.CommentLine").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.PicatConcept").properties("text").children(new String[]{"code"}, new boolean[]{false}).alias("%", "").create();
       case 2:
-        return new ConceptDescriptorBuilder("Picat.structure.Atom").super_("Picat.structure.Term").parents("Picat.structure.Term").create();
-      case 3:
-        return new ConceptDescriptorBuilder("Picat.structure.Body").interface_().parents("Picat.structure.PicatConcept").create();
-      case 4:
-        return new ConceptDescriptorBuilder("Picat.structure.CommentBlock").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.PicatConcept").properties("text").create();
-      case 5:
-        return new ConceptDescriptorBuilder("Picat.structure.CommentLine").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.PicatConcept").properties("text").create();
-      case 6:
-        return new ConceptDescriptorBuilder("Picat.structure.Condition").interface_().parents("Picat.structure.PicatConcept").create();
-      case 7:
-        return new ConceptDescriptorBuilder("Picat.structure.ConjunctiveGoal").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.PicatConcept").children(new String[]{"negativeGoalsOrEquivConstr"}, new boolean[]{true}).create();
-      case 8:
-        return new ConceptDescriptorBuilder("Picat.structure.DisjunctiveGoal").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.Goal").children(new String[]{"conjunctiveGoals"}, new boolean[]{true}).create();
-      case 9:
         return new ConceptDescriptorBuilder("Picat.structure.EmptyLine").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.PicatConcept").create();
+      case 3:
+        return new ConceptDescriptorBuilder("Picat.structure.Expression").interface_().parents("Picat.structure.PicatConcept").create();
+      case 4:
+        return new ConceptDescriptorBuilder("Picat.structure.FunctionDefinition").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.PicatConcept").properties("name").children(new String[]{"directives", "params", "expressions"}, new boolean[]{true, true, true}).create();
+      case 5:
+        return new ConceptDescriptorBuilder("Picat.structure.FunctionDirective").interface_().parents("Picat.structure.PicatConcept").create();
+      case 6:
+        return new ConceptDescriptorBuilder("Picat.structure.FunctionPrivate").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.FunctionDirective").alias("private", "").create();
+      case 7:
+        return new ConceptDescriptorBuilder("Picat.structure.FunctionTable").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.FunctionDirective").alias("table", "").create();
+      case 8:
+        return new ConceptDescriptorBuilder("Picat.structure.LineExpression").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.Expression").create();
+      case 9:
+        return new ConceptDescriptorBuilder("Picat.structure.ModuleDecl").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.PicatConcept").properties("name").alias("module", "").create();
       case 10:
-        return new ConceptDescriptorBuilder("Picat.structure.EnclosedGoal").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.NotConstraint_Or_EnclosedGoal").create();
+        return new ConceptDescriptorBuilder("Picat.structure.Operator").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.PicatConcept").properties("val").abstract_().create();
       case 11:
-        return new ConceptDescriptorBuilder("Picat.structure.EquivConstraint").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.NegativeGoalOrEquivConstrain").children(new String[]{"implConstrs"}, new boolean[]{true}).create();
-      case 12:
-        return new ConceptDescriptorBuilder("Picat.structure.Expression").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.PicatConcept").create();
-      case 13:
-        return new ConceptDescriptorBuilder("Picat.structure.FunctionDef").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.PicatConcept").children(new String[]{"functionDirective", "functionRules"}, new boolean[]{true, true}).create();
-      case 14:
-        return new ConceptDescriptorBuilder("Picat.structure.FunctionDirective").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.PicatConcept").abstract_().create();
-      case 15:
-        return new ConceptDescriptorBuilder("Picat.structure.FunctionFact").super_("Picat.structure.FunctionRuleOrFact").parents("Picat.structure.FunctionRuleOrFact").children(new String[]{"argument"}, new boolean[]{false}).create();
-      case 16:
-        return new ConceptDescriptorBuilder("Picat.structure.FunctionPrivate").super_("Picat.structure.FunctionDirective").parents("Picat.structure.FunctionDirective").alias("private", "").create();
-      case 17:
-        return new ConceptDescriptorBuilder("Picat.structure.FunctionRule").super_("Picat.structure.FunctionRuleOrFact").parents("Picat.structure.FunctionRuleOrFact").children(new String[]{"expression", "condition", "body"}, new boolean[]{false, false, false}).create();
-      case 18:
-        return new ConceptDescriptorBuilder("Picat.structure.FunctionRuleOrFact").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.PicatConcept").children(new String[]{"head"}, new boolean[]{false}).abstract_().create();
-      case 19:
-        return new ConceptDescriptorBuilder("Picat.structure.FunctionTable").super_("Picat.structure.FunctionDirective").parents("Picat.structure.FunctionDirective").alias("table", "").create();
-      case 20:
-        return new ConceptDescriptorBuilder("Picat.structure.Goal").interface_().parents("Picat.structure.Condition", "Picat.structure.Body").create();
-      case 21:
-        return new ConceptDescriptorBuilder("Picat.structure.Head").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.PicatConcept").children(new String[]{"name", "params"}, new boolean[]{false, true}).create();
-      case 22:
-        return new ConceptDescriptorBuilder("Picat.structure.ImplConstraint").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.PicatConcept").children(new String[]{"orConstrs"}, new boolean[]{true}).create();
-      case 23:
-        return new ConceptDescriptorBuilder("Picat.structure.ImportDecl").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.PicatConcept").children(new String[]{"moduleImports"}, new boolean[]{true}).alias("import", "").create();
-      case 24:
-        return new ConceptDescriptorBuilder("Picat.structure.ImportItem").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.PicatConcept").properties("arity").references("module").children(new String[]{"function"}, new boolean[]{false}).create();
-      case 25:
-        return new ConceptDescriptorBuilder("Picat.structure.ModuleDecl").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.PicatConcept", "jetbrains.mps.lang.core.structure.INamedConcept").children(new String[]{"name"}, new boolean[]{false}).alias("module", "").create();
-      case 26:
-        return new ConceptDescriptorBuilder("Picat.structure.NegativeGoal").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.NegativeGoalOrEquivConstrain").children(new String[]{"equivConstr"}, new boolean[]{false}).create();
-      case 27:
-        return new ConceptDescriptorBuilder("Picat.structure.NegativeGoalOrEquivConstrain").interface_().parents("Picat.structure.PicatConcept").create();
-      case 28:
-        return new ConceptDescriptorBuilder("Picat.structure.NotConstraint").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.NotConstraint_Or_EnclosedGoal").create();
-      case 29:
-        return new ConceptDescriptorBuilder("Picat.structure.NotConstraint_Or_EnclosedGoal").interface_().parents("Picat.structure.PicatConcept").create();
-      case 30:
-        return new ConceptDescriptorBuilder("Picat.structure.Operator").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.PicatConcept").properties("val").create();
-      case 31:
-        return new ConceptDescriptorBuilder("Picat.structure.OrConstraint").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.PicatConcept").children(new String[]{"xorConstrs"}, new boolean[]{true}).create();
-      case 32:
         return new ConceptDescriptorBuilder("Picat.structure.PicatConcept").interface_().create();
-      case 33:
-        return new ConceptDescriptorBuilder("Picat.structure.Root").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").children(new String[]{"module", "imports", "concepts"}, new boolean[]{false, true, true}).create();
-      case 34:
-        return new ConceptDescriptorBuilder("Picat.structure.Term").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "Picat.structure.PicatConcept").properties("val").create();
-      case 35:
-        return new ConceptDescriptorBuilder("Picat.structure.Variable").super_("Picat.structure.Term").parents("Picat.structure.Term").abstract_().create();
-      case 36:
-        return new ConceptDescriptorBuilder("Picat.structure.VariableAnonymous").super_("Picat.structure.Variable").parents("Picat.structure.Variable").create();
-      case 37:
-        return new ConceptDescriptorBuilder("Picat.structure.VariableNamed").super_("Picat.structure.Term").parents("Picat.structure.Term").create();
-      case 38:
-        return new ConceptDescriptorBuilder("Picat.structure.XorConstraint").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.PicatConcept").children(new String[]{"andConstrs"}, new boolean[]{true}).create();
+      case 12:
+        return new ConceptDescriptorBuilder("Picat.structure.Root").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").children(new String[]{"module", "concepts"}, new boolean[]{false, true}).create();
+      case 13:
+        return new ConceptDescriptorBuilder("Picat.structure.Term").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "Picat.structure.PicatConcept").properties("val").create();
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }
   }
 
-  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"Picat.structure.AndConstraint", "Picat.structure.Argument", "Picat.structure.Atom", "Picat.structure.Body", "Picat.structure.CommentBlock", "Picat.structure.CommentLine", "Picat.structure.Condition", "Picat.structure.ConjunctiveGoal", "Picat.structure.DisjunctiveGoal", "Picat.structure.EmptyLine", "Picat.structure.EnclosedGoal", "Picat.structure.EquivConstraint", "Picat.structure.Expression", "Picat.structure.FunctionDef", "Picat.structure.FunctionDirective", "Picat.structure.FunctionFact", "Picat.structure.FunctionPrivate", "Picat.structure.FunctionRule", "Picat.structure.FunctionRuleOrFact", "Picat.structure.FunctionTable", "Picat.structure.Goal", "Picat.structure.Head", "Picat.structure.ImplConstraint", "Picat.structure.ImportDecl", "Picat.structure.ImportItem", "Picat.structure.ModuleDecl", "Picat.structure.NegativeGoal", "Picat.structure.NegativeGoalOrEquivConstrain", "Picat.structure.NotConstraint", "Picat.structure.NotConstraint_Or_EnclosedGoal", "Picat.structure.Operator", "Picat.structure.OrConstraint", "Picat.structure.PicatConcept", "Picat.structure.Root", "Picat.structure.Term", "Picat.structure.Variable", "Picat.structure.VariableAnonymous", "Picat.structure.VariableNamed", "Picat.structure.XorConstraint"};
+  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"Picat.structure.CommentBlock", "Picat.structure.CommentLine", "Picat.structure.EmptyLine", "Picat.structure.Expression", "Picat.structure.FunctionDefinition", "Picat.structure.FunctionDirective", "Picat.structure.FunctionPrivate", "Picat.structure.FunctionTable", "Picat.structure.LineExpression", "Picat.structure.ModuleDecl", "Picat.structure.Operator", "Picat.structure.PicatConcept", "Picat.structure.Root", "Picat.structure.Term"};
 }

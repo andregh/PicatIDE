@@ -12,13 +12,9 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
 
   public ConstraintsDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_2qnle6_a0a0b, fqName)) {
-      case 1:
-        return new CommentBlock_Constraints();
       case 0:
-        return new Atom_Constraints();
-      case 3:
-        return new VariableNamed_Constraints();
-      case 2:
+        return new CommentBlock_Constraints();
+      case 1:
         return new Operator_Constraints();
       default:
         // todo: illegal in some cases? 
@@ -26,5 +22,5 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
     }
   }
 
-  private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"Picat.structure.Atom", "Picat.structure.CommentBlock", "Picat.structure.Operator", "Picat.structure.VariableNamed"};
+  private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"Picat.structure.CommentBlock", "Picat.structure.Operator"};
 }
